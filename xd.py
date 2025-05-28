@@ -1,0 +1,21 @@
+import csv
+
+# Define the data rows
+data = [
+    ["Date", "Location", "City", "Daily_Customers", "Total_Sales_USD", "Popular_Item", "Staff_On_Duty"],
+    ["2025-05-01", "123 Main St", "Houston", 120, 1500, "Burger", 8],
+    ["2025-05-02", "123 Main St", "Houston", 130, 1600, "Pizza", 7],
+    ["2025-05-03", "456 Oak Ave", "Houston", 90, 1100, "Pasta", 6],
+    ["2025-05-04", "456 Oak Ave", "Houston", 95, 1150, "Salad", 6],
+    ["2025-05-05", "789 Pine Rd", "Houston", 75, 900, "Sandwich", 5],
+]
+
+# Specify filename
+filename = "restaurant_sample_data.csv"
+
+# Write to CSV
+with open(filename, mode='w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerows(data)
+
+print(f"CSV file '{filename}' created successfully.")

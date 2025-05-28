@@ -13,14 +13,12 @@ client = OpenAI(api_key=api_key)
 
 # === Streamlit UI Setup ===
 st.set_page_config(page_title="CSV Analyst Bot", layout="wide")
-st.title("📊 CSV Data Analyst Bot")
+st.title("📊 Data Analyst Bot with Python Execution")
 
 # === SIDEBAR ===
 st.sidebar.header("Upload & Settings")
 uploaded_file = st.sidebar.file_uploader("Upload a CSV file", type="csv")
-chart_type = st.sidebar.selectbox("Select chart type", ["None", "Line Chart", "Bar Chart", "Heatmap"])
 
-# === MAIN FUNCTIONALITY ===
 if uploaded_file:
     df = pd.read_csv(uploaded_file)
     st.subheader("📋 Data Preview")
@@ -28,62 +26,79 @@ if uploaded_file:
 
     st.markdown("---")
 
-        # === CHART RENDERING ===
-    if chart_type != "None":
-        st.subheader(f"📊 {chart_type}")
-        
-        numeric_columns = df.select_dtypes(include='number').columns.tolist()
-        all_columns = df.columns.tolist()
-
-        if chart_type in ["Line Chart", "Bar Chart"]:
-            x_axis = st.selectbox("Select X-axis", options=all_columns)
-            y_axis = st.selectbox("Select Y-axis", options=numeric_columns)
-
-            if x_axis and y_axis:
-                chart_data = df[[x_axis, y_axis]].dropna()
-                chart_data = chart_data.sort_values(by=x_axis)
-                
-                if chart_type == "Line Chart":
-                    st.line_chart(chart_data.set_index(x_axis))
-                elif chart_type == "Bar Chart":
-                    st.bar_chart(chart_data.set_index(x_axis))
-
-        elif chart_type == "Heatmap":
-            if numeric_columns:
-                corr = df[numeric_columns].corr()
-                fig, ax = plt.subplots()
-                sns.heatmap(corr, annot=True, cmap="coolwarm", ax=ax)
-                st.pyplot(fig)
-            else:
-                st.warning("No numeric columns found for heatmap.")
-
-
-    # === QUESTION ANSWERING ===
+    # === NATURAL LANGUAGE Q&A WITH CODE EXECUTION ===
     st.markdown("---")
     st.subheader("💬 Ask a Question About Your Data")
+
     user_question = st.text_input("Type your question and press Enter:")
 
     if user_question:
+        # Prompt instructing the model to return pandas code only
         prompt = f"""
-You are a professional data analyst. You are analyzing the following dataset:
+You are a professional data analyst using pandas in Python.
+
+Given this DataFrame:
 
 {df.head(5).to_string(index=False)}
 
-User question: {user_question}
-Please provide your answer using only the information shown above.
+Write Python pandas code to answer the question: "{user_question}"
+
+Return only the code (a single line) that produces a DataFrame or Series result.
+
+Do NOT include any explanations or text.
 """
 
         try:
             response = client.chat.completions.create(
                 model="gpt-3.5-turbo",
                 messages=[{"role": "user", "content": prompt}],
-                temperature=0.2,
+                temperature=0,
             )
-            answer = response.choices[0].message.content
-            st.markdown("**Insight:**")
-            st.success(answer)
+            code = response.choices[0].message.content.strip("```python\n").strip("```").strip()
+
+            st.markdown("**Generated pandas code:**")
+            st.code(code, language="python")
+
+            # Execute the generated code safely in a restricted namespace
+            # Provide the df so the code can use it
+            local_vars = {"df": df, "pd": pd}
+            exec(f"result = {code}", {}, local_vars)
+            result = local_vars["result"]
+
+            # Display the result (DataFrame or Series)
+            if isinstance(result, pd.DataFrame) or isinstance(result, pd.Series):
+                st.subheader("📊 Result:")
+                st.dataframe(result)
+            else:
+                st.write(result)
+
+            # Check if any matplotlib figure was created and display it
+            import matplotlib.pyplot as plt
+            if plt.get_fignums():
+                st.pyplot(plt.gcf())
+                plt.close('all')  # Close the figure so it doesn't overlap on next run
+
+            # Optionally, ask the model to summarize the result
+            summary_prompt = f"""
+You wrote this pandas code:
+{code}
+
+The result of this code is:
+{result.to_string() if isinstance(result, (pd.DataFrame, pd.Series)) else str(result)}
+
+Please summarize this result in 1-2 sentences for a business user.
+"""
+            summary_response = client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[{"role": "user", "content": summary_prompt}],
+                temperature=0.5,
+            )
+            summary = summary_response.choices[0].message.content.strip()
+            st.markdown("**Summary:**")
+            st.info(summary)
+
         except Exception as e:
-            st.error(f"OpenAI error: {e}")
+            st.error(f"OpenAI or Execution error: {e}")
 
 else:
     st.info("📁 Please upload a CSV file to get started.")

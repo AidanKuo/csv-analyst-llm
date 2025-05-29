@@ -1,0 +1,1001 @@
+Transaction_ID,DateTime,Menu_Item_ID,Menu_Item_Name,Quantity_Sold,Price_per_Item,Total_Amount,Payment_Method,Employee_ID,Discount_Applied,Table_Number,Order_Type
+920,2025-04-28 02:34:27,5,Iced Tea,1,2.99,2.99,Debit Card,101,False,15.0,Takeout
+963,2025-04-28 03:44:30,4,Coke,2,2.49,4.98,Mobile Payment,107,False,,Takeout
+649,2025-04-28 03:46:32,3,Fries,4,3.99,15.96,Credit Card,103,True,,Delivery
+582,2025-04-28 03:53:59,5,Iced Tea,3,2.99,8.97,Mobile Payment,103,True,16.0,Delivery
+553,2025-04-28 05:00:40,1,Cheeseburger,2,10.99,21.98,Cash,104,True,4.0,Dine-In
+725,2025-04-28 06:07:52,7,Steak,4,18.99,75.96,Cash,110,True,,Delivery
+146,2025-04-28 06:31:16,5,Iced Tea,4,2.99,11.96,Cash,106,True,,Dine-In
+580,2025-04-28 06:38:35,8,Pasta Alfredo,4,13.99,55.96,Mobile Payment,107,False,,Dine-In
+187,2025-04-28 06:39:42,8,Pasta Alfredo,2,13.99,27.98,Credit Card,107,False,,Dine-In
+656,2025-04-28 07:02:27,2,Veggie Burger,1,9.49,9.49,Credit Card,103,True,15.0,Takeout
+23,2025-04-28 08:38:49,6,Grilled Chicken Salad,1,11.49,11.49,Credit Card,103,False,,Dine-In
+672,2025-04-28 08:45:47,2,Veggie Burger,4,9.49,37.96,Cash,103,True,,Dine-In
+154,2025-04-28 09:12:42,2,Veggie Burger,2,9.49,18.98,Cash,103,True,,Delivery
+865,2025-04-28 10:25:24,8,Pasta Alfredo,3,13.99,41.97,Mobile Payment,108,False,,Delivery
+52,2025-04-28 11:14:16,8,Pasta Alfredo,1,13.99,13.99,Cash,104,True,,Dine-In
+893,2025-04-28 11:37:42,5,Iced Tea,4,2.99,11.96,Debit Card,110,True,,Dine-In
+4,2025-04-28 13:00:01,2,Veggie Burger,2,9.49,18.98,Debit Card,103,True,,Dine-In
+50,2025-04-28 14:01:01,6,Grilled Chicken Salad,3,11.49,34.47,Debit Card,104,False,,Delivery
+168,2025-04-28 14:33:35,1,Cheeseburger,4,10.99,43.96,Credit Card,103,True,,Dine-In
+103,2025-04-28 15:02:00,8,Pasta Alfredo,1,13.99,13.99,Mobile Payment,108,False,,Delivery
+238,2025-04-28 16:12:04,1,Cheeseburger,1,10.99,10.99,Cash,108,True,,Dine-In
+206,2025-04-28 17:06:57,1,Cheeseburger,3,10.99,32.97,Mobile Payment,107,True,,Takeout
+430,2025-04-28 17:48:16,7,Steak,4,18.99,75.96,Cash,107,False,,Dine-In
+855,2025-04-28 18:20:42,8,Pasta Alfredo,4,13.99,55.96,Mobile Payment,101,False,,Dine-In
+378,2025-04-28 18:43:00,7,Steak,4,18.99,75.96,Debit Card,108,True,,Delivery
+290,2025-04-28 20:21:13,3,Fries,3,3.99,11.97,Credit Card,107,True,,Takeout
+417,2025-04-28 21:35:50,6,Grilled Chicken Salad,2,11.49,22.98,Debit Card,101,False,,Delivery
+610,2025-04-28 22:54:05,9,Lemonade,2,2.79,5.58,Mobile Payment,108,True,,Takeout
+916,2025-04-28 23:18:53,1,Cheeseburger,3,10.99,32.97,Cash,106,False,,Dine-In
+394,2025-04-29 00:54:19,4,Coke,3,2.49,7.47,Debit Card,104,True,,Delivery
+921,2025-04-29 01:11:34,10,Chocolate Cake,3,6.49,19.47,Debit Card,109,True,,Dine-In
+11,2025-04-29 01:52:26,1,Cheeseburger,4,10.99,43.96,Debit Card,101,True,,Delivery
+856,2025-04-29 03:04:55,10,Chocolate Cake,2,6.49,12.98,Credit Card,110,True,15.0,Delivery
+713,2025-04-29 03:28:38,2,Veggie Burger,3,9.49,28.47,Cash,104,True,19.0,Dine-In
+49,2025-04-29 03:41:19,2,Veggie Burger,3,9.49,28.47,Mobile Payment,103,True,1.0,Takeout
+584,2025-04-29 04:03:46,8,Pasta Alfredo,2,13.99,27.98,Mobile Payment,104,False,,Takeout
+21,2025-04-29 04:28:14,7,Steak,1,18.99,18.99,Debit Card,102,True,,Dine-In
+426,2025-04-29 04:31:26,3,Fries,3,3.99,11.97,Mobile Payment,109,False,12.0,Takeout
+415,2025-04-29 06:29:43,7,Steak,3,18.99,56.97,Credit Card,109,True,17.0,Takeout
+627,2025-04-29 06:37:53,4,Coke,1,2.49,2.49,Debit Card,109,True,5.0,Takeout
+669,2025-04-29 07:17:43,10,Chocolate Cake,3,6.49,19.47,Mobile Payment,108,False,17.0,Delivery
+743,2025-04-29 07:45:01,1,Cheeseburger,2,10.99,21.98,Debit Card,108,True,12.0,Dine-In
+772,2025-04-29 10:23:24,2,Veggie Burger,4,9.49,37.96,Debit Card,105,False,,Dine-In
+97,2025-04-29 10:26:09,8,Pasta Alfredo,4,13.99,55.96,Debit Card,103,True,,Dine-In
+120,2025-04-29 10:53:56,7,Steak,1,18.99,18.99,Credit Card,105,False,,Dine-In
+70,2025-04-29 11:01:32,9,Lemonade,3,2.79,8.37,Debit Card,107,False,,Takeout
+941,2025-04-29 11:04:36,10,Chocolate Cake,4,6.49,25.96,Mobile Payment,108,False,,Dine-In
+521,2025-04-29 11:16:29,3,Fries,4,3.99,15.96,Mobile Payment,105,False,8.0,Dine-In
+75,2025-04-29 11:32:26,4,Coke,3,2.49,7.47,Cash,102,False,18.0,Takeout
+278,2025-04-29 12:10:14,7,Steak,2,18.99,37.98,Credit Card,103,False,,Delivery
+101,2025-04-29 12:10:42,2,Veggie Burger,2,9.49,18.98,Cash,108,False,,Delivery
+267,2025-04-29 12:31:49,3,Fries,4,3.99,15.96,Credit Card,108,True,,Takeout
+520,2025-04-29 13:10:30,8,Pasta Alfredo,1,13.99,13.99,Credit Card,102,True,,Takeout
+191,2025-04-29 14:35:48,8,Pasta Alfredo,1,13.99,13.99,Credit Card,107,True,,Dine-In
+403,2025-04-29 14:41:12,6,Grilled Chicken Salad,4,11.49,45.96,Debit Card,102,False,,Dine-In
+150,2025-04-29 15:27:03,10,Chocolate Cake,2,6.49,12.98,Cash,109,True,,Delivery
+314,2025-04-29 16:23:05,8,Pasta Alfredo,1,13.99,13.99,Debit Card,102,False,3.0,Delivery
+716,2025-04-29 16:27:09,9,Lemonade,1,2.79,2.79,Debit Card,102,True,,Delivery
+112,2025-04-29 18:49:52,2,Veggie Burger,1,9.49,9.49,Mobile Payment,106,False,,Delivery
+852,2025-04-29 19:13:35,1,Cheeseburger,1,10.99,10.99,Cash,106,True,,Dine-In
+263,2025-04-29 19:15:32,1,Cheeseburger,1,10.99,10.99,Cash,103,True,,Takeout
+162,2025-04-29 19:46:05,9,Lemonade,1,2.79,2.79,Debit Card,103,False,,Dine-In
+770,2025-04-29 21:19:34,9,Lemonade,4,2.79,11.16,Cash,101,True,,Dine-In
+361,2025-04-29 23:02:03,4,Coke,2,2.49,4.98,Debit Card,108,True,11.0,Dine-In
+163,2025-04-29 23:21:05,5,Iced Tea,4,2.99,11.96,Mobile Payment,102,True,,Delivery
+919,2025-04-29 23:48:16,2,Veggie Burger,4,9.49,37.96,Credit Card,104,True,,Delivery
+823,2025-04-30 00:22:52,8,Pasta Alfredo,2,13.99,27.98,Mobile Payment,109,True,,Delivery
+294,2025-04-30 00:28:32,9,Lemonade,4,2.79,11.16,Credit Card,110,True,11.0,Dine-In
+424,2025-04-30 00:51:59,10,Chocolate Cake,2,6.49,12.98,Cash,102,False,,Takeout
+295,2025-04-30 01:24:29,7,Steak,1,18.99,18.99,Credit Card,106,False,,Delivery
+682,2025-04-30 02:52:42,6,Grilled Chicken Salad,3,11.49,34.47,Mobile Payment,108,True,18.0,Takeout
+497,2025-04-30 03:45:31,6,Grilled Chicken Salad,2,11.49,22.98,Mobile Payment,102,True,16.0,Takeout
+30,2025-04-30 04:01:05,2,Veggie Burger,2,9.49,18.98,Debit Card,109,True,,Takeout
+208,2025-04-30 04:44:53,6,Grilled Chicken Salad,2,11.49,22.98,Credit Card,110,False,,Dine-In
+654,2025-04-30 04:51:48,8,Pasta Alfredo,1,13.99,13.99,Cash,103,True,,Dine-In
+193,2025-04-30 04:51:51,3,Fries,1,3.99,3.99,Mobile Payment,102,True,5.0,Takeout
+9,2025-04-30 04:58:28,3,Fries,4,3.99,15.96,Cash,108,True,,Delivery
+439,2025-04-30 05:21:57,2,Veggie Burger,2,9.49,18.98,Debit Card,107,False,,Dine-In
+790,2025-04-30 07:10:21,1,Cheeseburger,3,10.99,32.97,Cash,101,True,,Takeout
+42,2025-04-30 07:44:53,5,Iced Tea,4,2.99,11.96,Cash,105,False,8.0,Dine-In
+811,2025-04-30 07:54:05,4,Coke,4,2.49,9.96,Debit Card,107,True,5.0,Takeout
+401,2025-04-30 08:09:13,5,Iced Tea,4,2.99,11.96,Mobile Payment,101,False,,Delivery
+96,2025-04-30 08:40:02,1,Cheeseburger,4,10.99,43.96,Debit Card,110,False,,Delivery
+448,2025-04-30 09:40:54,9,Lemonade,3,2.79,8.37,Credit Card,104,False,,Takeout
+802,2025-04-30 09:57:02,8,Pasta Alfredo,2,13.99,27.98,Mobile Payment,109,True,13.0,Delivery
+258,2025-04-30 12:15:46,1,Cheeseburger,2,10.99,21.98,Mobile Payment,107,True,,Dine-In
+821,2025-04-30 12:34:41,2,Veggie Burger,3,9.49,28.47,Credit Card,103,False,,Takeout
+38,2025-04-30 13:10:41,7,Steak,2,18.99,37.98,Cash,101,False,16.0,Dine-In
+599,2025-04-30 13:31:38,2,Veggie Burger,4,9.49,37.96,Cash,107,False,,Delivery
+704,2025-04-30 13:42:32,6,Grilled Chicken Salad,4,11.49,45.96,Mobile Payment,103,False,,Dine-In
+626,2025-04-30 15:14:06,7,Steak,2,18.99,37.98,Mobile Payment,107,False,,Dine-In
+486,2025-04-30 15:14:52,2,Veggie Burger,2,9.49,18.98,Mobile Payment,105,True,,Dine-In
+539,2025-04-30 15:45:44,1,Cheeseburger,4,10.99,43.96,Credit Card,105,True,,Delivery
+204,2025-04-30 17:49:56,2,Veggie Burger,3,9.49,28.47,Cash,109,False,12.0,Takeout
+853,2025-04-30 17:54:07,4,Coke,3,2.49,7.47,Credit Card,103,True,,Takeout
+71,2025-04-30 18:47:30,5,Iced Tea,2,2.99,5.98,Credit Card,104,False,10.0,Delivery
+203,2025-04-30 19:27:22,6,Grilled Chicken Salad,2,11.49,22.98,Debit Card,103,True,,Delivery
+225,2025-04-30 20:51:32,4,Coke,3,2.49,7.47,Debit Card,108,False,,Dine-In
+741,2025-04-30 22:03:45,4,Coke,1,2.49,2.49,Credit Card,110,False,,Delivery
+480,2025-04-30 22:29:19,10,Chocolate Cake,3,6.49,19.47,Cash,103,False,,Delivery
+80,2025-04-30 22:49:03,2,Veggie Burger,2,9.49,18.98,Debit Card,108,False,17.0,Dine-In
+122,2025-04-30 23:46:02,1,Cheeseburger,3,10.99,32.97,Cash,109,True,,Delivery
+731,2025-05-01 00:22:55,4,Coke,2,2.49,4.98,Mobile Payment,102,False,10.0,Delivery
+464,2025-05-01 00:24:10,3,Fries,2,3.99,7.98,Debit Card,105,False,8.0,Dine-In
+845,2025-05-01 01:08:30,6,Grilled Chicken Salad,3,11.49,34.47,Debit Card,110,False,,Delivery
+652,2025-05-01 01:51:22,1,Cheeseburger,1,10.99,10.99,Credit Card,102,False,10.0,Dine-In
+156,2025-05-01 03:13:54,5,Iced Tea,1,2.99,2.99,Mobile Payment,102,False,,Takeout
+812,2025-05-01 03:14:14,10,Chocolate Cake,2,6.49,12.98,Credit Card,106,False,12.0,Delivery
+153,2025-05-01 03:40:27,10,Chocolate Cake,3,6.49,19.47,Cash,105,False,,Takeout
+186,2025-05-01 04:03:56,3,Fries,2,3.99,7.98,Mobile Payment,104,True,,Delivery
+29,2025-05-01 04:08:24,1,Cheeseburger,1,10.99,10.99,Credit Card,107,True,,Delivery
+803,2025-05-01 05:36:49,2,Veggie Burger,2,9.49,18.98,Cash,107,False,13.0,Delivery
+266,2025-05-01 06:43:37,2,Veggie Burger,3,9.49,28.47,Debit Card,109,False,10.0,Takeout
+692,2025-05-01 06:46:47,8,Pasta Alfredo,2,13.99,27.98,Debit Card,104,True,13.0,Delivery
+198,2025-05-01 06:47:07,1,Cheeseburger,4,10.99,43.96,Cash,106,True,7.0,Dine-In
+717,2025-05-01 07:19:34,4,Coke,4,2.49,9.96,Credit Card,109,False,6.0,Delivery
+676,2025-05-01 07:38:05,7,Steak,4,18.99,75.96,Credit Card,101,True,,Dine-In
+107,2025-05-01 07:56:50,9,Lemonade,2,2.79,5.58,Credit Card,110,False,,Dine-In
+428,2025-05-01 08:06:44,8,Pasta Alfredo,2,13.99,27.98,Credit Card,104,True,,Takeout
+727,2025-05-01 08:49:16,1,Cheeseburger,3,10.99,32.97,Debit Card,102,False,,Delivery
+445,2025-05-01 09:05:58,10,Chocolate Cake,4,6.49,25.96,Mobile Payment,108,False,,Delivery
+571,2025-05-01 10:41:55,7,Steak,2,18.99,37.98,Debit Card,103,True,,Dine-In
+982,2025-05-01 11:09:33,4,Coke,3,2.49,7.47,Cash,101,True,,Dine-In
+550,2025-05-01 12:27:55,8,Pasta Alfredo,3,13.99,41.97,Credit Card,110,True,3.0,Takeout
+841,2025-05-01 12:54:40,6,Grilled Chicken Salad,2,11.49,22.98,Debit Card,110,True,,Takeout
+544,2025-05-01 13:28:08,8,Pasta Alfredo,4,13.99,55.96,Debit Card,106,False,,Dine-In
+733,2025-05-01 13:39:00,6,Grilled Chicken Salad,4,11.49,45.96,Credit Card,108,False,,Delivery
+414,2025-05-01 14:23:18,1,Cheeseburger,2,10.99,21.98,Cash,109,False,,Delivery
+995,2025-05-01 15:01:16,1,Cheeseburger,4,10.99,43.96,Mobile Payment,102,False,,Takeout
+51,2025-05-01 16:05:01,8,Pasta Alfredo,4,13.99,55.96,Debit Card,106,False,,Dine-In
+836,2025-05-01 17:03:57,3,Fries,3,3.99,11.97,Debit Card,108,True,,Delivery
+516,2025-05-01 17:30:15,4,Coke,2,2.49,4.98,Credit Card,109,False,16.0,Dine-In
+813,2025-05-01 18:12:11,3,Fries,2,3.99,7.98,Cash,102,False,8.0,Takeout
+670,2025-05-01 19:01:00,8,Pasta Alfredo,4,13.99,55.96,Debit Card,105,True,1.0,Delivery
+872,2025-05-01 19:02:46,7,Steak,4,18.99,75.96,Credit Card,104,False,,Takeout
+58,2025-05-01 19:04:17,8,Pasta Alfredo,4,13.99,55.96,Mobile Payment,108,True,19.0,Takeout
+24,2025-05-01 19:24:48,2,Veggie Burger,2,9.49,18.98,Mobile Payment,108,True,,Takeout
+997,2025-05-01 20:10:25,5,Iced Tea,2,2.99,5.98,Credit Card,105,False,,Dine-In
+816,2025-05-01 20:25:03,8,Pasta Alfredo,3,13.99,41.97,Mobile Payment,110,True,,Dine-In
+366,2025-05-01 21:16:02,7,Steak,4,18.99,75.96,Debit Card,103,False,,Takeout
+273,2025-05-01 22:30:22,5,Iced Tea,1,2.99,2.99,Mobile Payment,105,False,,Delivery
+127,2025-05-01 23:26:23,8,Pasta Alfredo,1,13.99,13.99,Credit Card,107,True,1.0,Delivery
+839,2025-05-02 00:02:30,2,Veggie Burger,4,9.49,37.96,Debit Card,110,True,,Dine-In
+234,2025-05-02 00:17:16,1,Cheeseburger,4,10.99,43.96,Mobile Payment,108,True,,Dine-In
+504,2025-05-02 00:18:06,6,Grilled Chicken Salad,1,11.49,11.49,Debit Card,101,False,,Takeout
+532,2025-05-02 00:19:09,4,Coke,2,2.49,4.98,Cash,101,True,,Delivery
+873,2025-05-02 01:27:52,9,Lemonade,1,2.79,2.79,Credit Card,110,False,,Delivery
+465,2025-05-02 01:56:16,10,Chocolate Cake,1,6.49,6.49,Credit Card,107,True,,Delivery
+621,2025-05-02 02:04:41,4,Coke,3,2.49,7.47,Credit Card,108,True,,Takeout
+155,2025-05-02 02:07:05,6,Grilled Chicken Salad,3,11.49,34.47,Mobile Payment,108,False,,Dine-In
+353,2025-05-02 02:28:01,8,Pasta Alfredo,3,13.99,41.97,Credit Card,101,True,18.0,Dine-In
+510,2025-05-02 02:53:58,5,Iced Tea,2,2.99,5.98,Credit Card,107,False,15.0,Dine-In
+719,2025-05-02 03:30:18,5,Iced Tea,1,2.99,2.99,Credit Card,105,False,,Takeout
+413,2025-05-02 03:52:14,10,Chocolate Cake,4,6.49,25.96,Debit Card,107,False,,Takeout
+885,2025-05-02 04:12:14,1,Cheeseburger,1,10.99,10.99,Mobile Payment,104,True,5.0,Dine-In
+945,2025-05-02 04:31:17,4,Coke,1,2.49,2.49,Cash,102,False,2.0,Dine-In
+6,2025-05-02 04:56:51,9,Lemonade,4,2.79,11.16,Mobile Payment,107,True,9.0,Takeout
+805,2025-05-02 05:01:32,5,Iced Tea,1,2.99,2.99,Cash,102,True,,Dine-In
+534,2025-05-02 07:06:33,5,Iced Tea,4,2.99,11.96,Debit Card,103,False,,Dine-In
+99,2025-05-02 08:00:26,9,Lemonade,2,2.79,5.58,Mobile Payment,107,False,,Takeout
+423,2025-05-02 08:28:03,6,Grilled Chicken Salad,4,11.49,45.96,Mobile Payment,104,True,12.0,Delivery
+202,2025-05-02 09:51:15,2,Veggie Burger,4,9.49,37.96,Cash,106,False,18.0,Dine-In
+205,2025-05-02 10:05:27,10,Chocolate Cake,4,6.49,25.96,Cash,106,False,,Takeout
+364,2025-05-02 10:08:04,6,Grilled Chicken Salad,4,11.49,45.96,Mobile Payment,110,False,,Delivery
+974,2025-05-02 10:53:55,4,Coke,4,2.49,9.96,Cash,110,False,,Takeout
+436,2025-05-02 12:20:34,9,Lemonade,4,2.79,11.16,Cash,102,True,,Delivery
+631,2025-05-02 13:52:19,4,Coke,3,2.49,7.47,Credit Card,101,True,,Takeout
+135,2025-05-02 13:58:41,5,Iced Tea,2,2.99,5.98,Mobile Payment,110,False,8.0,Delivery
+899,2025-05-02 13:59:23,6,Grilled Chicken Salad,2,11.49,22.98,Cash,103,False,6.0,Dine-In
+420,2025-05-02 14:29:19,1,Cheeseburger,4,10.99,43.96,Cash,101,True,,Delivery
+251,2025-05-02 14:57:50,10,Chocolate Cake,1,6.49,6.49,Debit Card,104,True,18.0,Delivery
+458,2025-05-02 15:05:36,10,Chocolate Cake,1,6.49,6.49,Debit Card,104,True,,Takeout
+931,2025-05-02 15:19:33,1,Cheeseburger,1,10.99,10.99,Credit Card,101,True,8.0,Delivery
+239,2025-05-02 15:34:30,4,Coke,2,2.49,4.98,Mobile Payment,106,False,12.0,Dine-In
+94,2025-05-02 16:12:03,5,Iced Tea,4,2.99,11.96,Credit Card,109,True,7.0,Takeout
+116,2025-05-02 17:34:51,3,Fries,1,3.99,3.99,Debit Card,110,False,,Delivery
+738,2025-05-02 17:59:27,1,Cheeseburger,4,10.99,43.96,Cash,104,True,,Takeout
+22,2025-05-02 18:18:09,7,Steak,1,18.99,18.99,Debit Card,102,True,,Dine-In
+888,2025-05-02 18:43:02,5,Iced Tea,3,2.99,8.97,Credit Card,104,True,13.0,Delivery
+140,2025-05-02 19:02:35,1,Cheeseburger,3,10.99,32.97,Credit Card,105,False,,Takeout
+63,2025-05-02 19:02:35,9,Lemonade,3,2.79,8.37,Debit Card,106,True,,Takeout
+581,2025-05-02 21:13:43,2,Veggie Burger,4,9.49,37.96,Cash,102,True,,Dine-In
+157,2025-05-02 22:02:26,6,Grilled Chicken Salad,2,11.49,22.98,Mobile Payment,109,True,1.0,Dine-In
+79,2025-05-02 23:55:16,8,Pasta Alfredo,4,13.99,55.96,Cash,102,False,18.0,Dine-In
+535,2025-05-02 23:59:24,3,Fries,4,3.99,15.96,Cash,105,False,6.0,Dine-In
+207,2025-05-03 00:02:48,4,Coke,2,2.49,4.98,Credit Card,109,True,,Delivery
+339,2025-05-03 00:52:41,7,Steak,3,18.99,56.97,Mobile Payment,108,False,8.0,Delivery
+975,2025-05-03 02:10:55,10,Chocolate Cake,4,6.49,25.96,Debit Card,101,False,,Delivery
+453,2025-05-03 02:29:14,6,Grilled Chicken Salad,2,11.49,22.98,Mobile Payment,110,True,,Takeout
+700,2025-05-03 02:40:56,9,Lemonade,3,2.79,8.37,Debit Card,101,False,,Takeout
+622,2025-05-03 03:17:33,4,Coke,4,2.49,9.96,Credit Card,110,True,,Delivery
+837,2025-05-03 04:04:08,1,Cheeseburger,4,10.99,43.96,Credit Card,102,False,11.0,Delivery
+573,2025-05-03 04:15:51,2,Veggie Burger,2,9.49,18.98,Cash,102,True,,Delivery
+444,2025-05-03 04:29:20,7,Steak,3,18.99,56.97,Mobile Payment,108,True,16.0,Dine-In
+572,2025-05-03 05:53:06,3,Fries,2,3.99,7.98,Credit Card,109,True,,Delivery
+396,2025-05-03 05:58:34,6,Grilled Chicken Salad,1,11.49,11.49,Cash,102,True,,Delivery
+18,2025-05-03 06:26:58,2,Veggie Burger,1,9.49,9.49,Mobile Payment,110,False,,Takeout
+722,2025-05-03 06:38:57,3,Fries,4,3.99,15.96,Cash,102,False,,Delivery
+260,2025-05-03 08:06:08,10,Chocolate Cake,3,6.49,19.47,Debit Card,110,True,,Delivery
+381,2025-05-03 09:49:42,9,Lemonade,3,2.79,8.37,Mobile Payment,103,False,,Delivery
+689,2025-05-03 10:03:49,10,Chocolate Cake,1,6.49,6.49,Credit Card,105,False,9.0,Delivery
+398,2025-05-03 10:52:33,1,Cheeseburger,2,10.99,21.98,Cash,108,False,,Delivery
+528,2025-05-03 11:08:03,6,Grilled Chicken Salad,3,11.49,34.47,Credit Card,105,True,,Delivery
+918,2025-05-03 11:10:16,8,Pasta Alfredo,1,13.99,13.99,Debit Card,110,False,,Delivery
+83,2025-05-03 11:11:37,8,Pasta Alfredo,2,13.99,27.98,Cash,102,False,16.0,Delivery
+746,2025-05-03 13:24:49,3,Fries,4,3.99,15.96,Debit Card,107,False,10.0,Takeout
+648,2025-05-03 14:13:12,6,Grilled Chicken Salad,1,11.49,11.49,Mobile Payment,107,True,,Takeout
+271,2025-05-03 16:53:27,5,Iced Tea,2,2.99,5.98,Cash,104,True,,Delivery
+297,2025-05-03 17:22:17,3,Fries,2,3.99,7.98,Debit Card,104,True,8.0,Takeout
+929,2025-05-03 18:30:50,5,Iced Tea,1,2.99,2.99,Mobile Payment,107,False,,Delivery
+884,2025-05-03 18:42:24,5,Iced Tea,2,2.99,5.98,Debit Card,102,False,8.0,Takeout
+196,2025-05-03 19:05:56,9,Lemonade,3,2.79,8.37,Mobile Payment,107,True,,Takeout
+288,2025-05-03 20:40:54,7,Steak,2,18.99,37.98,Mobile Payment,105,False,,Delivery
+877,2025-05-03 23:08:28,5,Iced Tea,1,2.99,2.99,Credit Card,109,True,,Takeout
+149,2025-05-03 23:37:28,8,Pasta Alfredo,2,13.99,27.98,Credit Card,103,True,13.0,Takeout
+488,2025-05-03 23:45:48,6,Grilled Chicken Salad,1,11.49,11.49,Cash,106,False,,Delivery
+276,2025-05-04 00:29:13,7,Steak,1,18.99,18.99,Debit Card,107,False,,Takeout
+373,2025-05-04 01:22:47,3,Fries,4,3.99,15.96,Debit Card,102,False,14.0,Dine-In
+132,2025-05-04 01:52:48,10,Chocolate Cake,4,6.49,25.96,Mobile Payment,108,True,,Delivery
+822,2025-05-04 02:02:44,5,Iced Tea,1,2.99,2.99,Credit Card,102,False,,Takeout
+65,2025-05-04 02:23:17,9,Lemonade,1,2.79,2.79,Cash,109,True,3.0,Takeout
+950,2025-05-04 02:50:59,8,Pasta Alfredo,1,13.99,13.99,Debit Card,105,True,17.0,Dine-In
+990,2025-05-04 03:01:12,9,Lemonade,1,2.79,2.79,Credit Card,104,True,16.0,Takeout
+938,2025-05-04 04:40:03,10,Chocolate Cake,3,6.49,19.47,Debit Card,109,True,,Dine-In
+72,2025-05-04 05:13:32,1,Cheeseburger,1,10.99,10.99,Cash,106,False,4.0,Delivery
+985,2025-05-04 05:14:08,4,Coke,3,2.49,7.47,Mobile Payment,108,False,1.0,Dine-In
+564,2025-05-04 07:07:39,6,Grilled Chicken Salad,4,11.49,45.96,Mobile Payment,105,True,,Takeout
+771,2025-05-04 08:04:15,7,Steak,3,18.99,56.97,Cash,104,False,4.0,Delivery
+994,2025-05-04 08:12:12,5,Iced Tea,1,2.99,2.99,Mobile Payment,110,False,,Delivery
+299,2025-05-04 08:45:09,7,Steak,1,18.99,18.99,Credit Card,105,True,5.0,Delivery
+275,2025-05-04 09:23:13,10,Chocolate Cake,2,6.49,12.98,Cash,109,False,,Dine-In
+777,2025-05-04 10:26:08,3,Fries,2,3.99,7.98,Debit Card,109,False,1.0,Delivery
+487,2025-05-04 11:01:18,3,Fries,2,3.99,7.98,Debit Card,102,True,,Dine-In
+380,2025-05-04 11:31:51,7,Steak,4,18.99,75.96,Credit Card,110,False,,Delivery
+906,2025-05-04 14:39:42,4,Coke,1,2.49,2.49,Debit Card,102,False,,Dine-In
+992,2025-05-04 16:49:29,5,Iced Tea,2,2.99,5.98,Debit Card,109,False,17.0,Delivery
+307,2025-05-04 17:05:19,7,Steak,1,18.99,18.99,Mobile Payment,106,False,,Takeout
+87,2025-05-04 18:36:08,8,Pasta Alfredo,1,13.99,13.99,Credit Card,106,False,,Takeout
+561,2025-05-04 18:44:07,2,Veggie Burger,3,9.49,28.47,Mobile Payment,107,False,,Takeout
+354,2025-05-04 18:50:17,10,Chocolate Cake,4,6.49,25.96,Cash,103,True,12.0,Delivery
+312,2025-05-04 21:09:23,2,Veggie Burger,3,9.49,28.47,Credit Card,110,True,5.0,Dine-In
+160,2025-05-04 21:32:02,7,Steak,3,18.99,56.97,Cash,106,True,,Takeout
+76,2025-05-04 22:45:21,4,Coke,4,2.49,9.96,Debit Card,102,False,,Dine-In
+365,2025-05-05 00:27:40,9,Lemonade,3,2.79,8.37,Credit Card,105,True,18.0,Dine-In
+46,2025-05-05 01:08:39,10,Chocolate Cake,1,6.49,6.49,Credit Card,107,True,,Delivery
+8,2025-05-05 01:23:08,6,Grilled Chicken Salad,1,11.49,11.49,Credit Card,105,False,,Delivery
+882,2025-05-05 01:39:22,9,Lemonade,4,2.79,11.16,Cash,108,True,,Dine-In
+768,2025-05-05 02:20:33,1,Cheeseburger,2,10.99,21.98,Credit Card,105,True,18.0,Dine-In
+446,2025-05-05 02:22:44,10,Chocolate Cake,4,6.49,25.96,Cash,107,False,7.0,Dine-In
+701,2025-05-05 02:31:52,5,Iced Tea,2,2.99,5.98,Cash,105,True,,Takeout
+68,2025-05-05 03:18:19,5,Iced Tea,2,2.99,5.98,Credit Card,103,False,,Delivery
+744,2025-05-05 03:22:57,4,Coke,1,2.49,2.49,Mobile Payment,103,True,14.0,Dine-In
+215,2025-05-05 03:44:18,2,Veggie Burger,3,9.49,28.47,Credit Card,102,True,,Dine-In
+293,2025-05-05 05:24:41,8,Pasta Alfredo,3,13.99,41.97,Debit Card,104,False,,Takeout
+440,2025-05-05 05:39:11,5,Iced Tea,2,2.99,5.98,Debit Card,105,False,,Takeout
+167,2025-05-05 06:26:05,4,Coke,2,2.49,4.98,Credit Card,110,False,8.0,Delivery
+257,2025-05-05 07:32:08,5,Iced Tea,1,2.99,2.99,Debit Card,106,False,13.0,Dine-In
+244,2025-05-05 07:48:29,2,Veggie Burger,1,9.49,9.49,Credit Card,101,True,,Takeout
+192,2025-05-05 08:55:31,5,Iced Tea,2,2.99,5.98,Debit Card,105,False,,Dine-In
+910,2025-05-05 09:04:28,8,Pasta Alfredo,1,13.99,13.99,Mobile Payment,107,True,20.0,Delivery
+421,2025-05-05 10:32:19,8,Pasta Alfredo,2,13.99,27.98,Debit Card,101,True,,Delivery
+663,2025-05-05 10:46:22,9,Lemonade,4,2.79,11.16,Debit Card,104,False,,Delivery
+470,2025-05-05 10:51:15,1,Cheeseburger,3,10.99,32.97,Debit Card,102,False,,Delivery
+968,2025-05-05 11:19:52,2,Veggie Burger,2,9.49,18.98,Credit Card,109,True,12.0,Dine-In
+901,2025-05-05 11:21:13,5,Iced Tea,4,2.99,11.96,Credit Card,101,False,8.0,Dine-In
+709,2025-05-05 11:51:25,6,Grilled Chicken Salad,3,11.49,34.47,Debit Card,106,True,,Dine-In
+272,2025-05-05 12:16:30,2,Veggie Burger,4,9.49,37.96,Debit Card,103,True,,Dine-In
+152,2025-05-05 12:44:22,2,Veggie Burger,3,9.49,28.47,Credit Card,104,True,,Dine-In
+954,2025-05-05 13:14:34,10,Chocolate Cake,2,6.49,12.98,Credit Card,109,False,,Delivery
+78,2025-05-05 13:44:07,3,Fries,2,3.99,7.98,Mobile Payment,106,False,,Takeout
+737,2025-05-05 13:45:24,3,Fries,3,3.99,11.97,Debit Card,104,True,,Takeout
+113,2025-05-05 14:37:35,8,Pasta Alfredo,4,13.99,55.96,Credit Card,101,False,,Takeout
+345,2025-05-05 14:55:55,1,Cheeseburger,3,10.99,32.97,Mobile Payment,104,False,6.0,Delivery
+684,2025-05-05 14:59:51,6,Grilled Chicken Salad,2,11.49,22.98,Debit Card,106,False,,Delivery
+279,2025-05-05 16:19:20,5,Iced Tea,4,2.99,11.96,Debit Card,109,True,,Delivery
+526,2025-05-05 16:57:20,2,Veggie Burger,2,9.49,18.98,Debit Card,105,False,,Delivery
+607,2025-05-05 17:15:42,2,Veggie Burger,3,9.49,28.47,Debit Card,104,False,,Delivery
+944,2025-05-05 17:49:10,2,Veggie Burger,1,9.49,9.49,Credit Card,104,True,,Delivery
+296,2025-05-05 18:19:54,5,Iced Tea,3,2.99,8.97,Cash,104,True,,Takeout
+925,2025-05-05 18:23:04,9,Lemonade,2,2.79,5.58,Debit Card,101,False,3.0,Delivery
+118,2025-05-05 18:48:41,7,Steak,4,18.99,75.96,Debit Card,102,False,,Dine-In
+695,2025-05-05 19:04:38,6,Grilled Chicken Salad,1,11.49,11.49,Mobile Payment,102,True,,Delivery
+372,2025-05-05 19:39:55,8,Pasta Alfredo,1,13.99,13.99,Debit Card,103,False,,Dine-In
+265,2025-05-05 22:03:00,2,Veggie Burger,3,9.49,28.47,Debit Card,107,True,,Takeout
+179,2025-05-05 23:40:11,9,Lemonade,2,2.79,5.58,Debit Card,103,True,,Delivery
+114,2025-05-06 00:05:09,9,Lemonade,3,2.79,8.37,Debit Card,104,False,,Delivery
+466,2025-05-06 00:19:24,9,Lemonade,2,2.79,5.58,Mobile Payment,110,False,,Dine-In
+554,2025-05-06 00:28:42,4,Coke,2,2.49,4.98,Mobile Payment,104,True,,Takeout
+259,2025-05-06 02:13:35,5,Iced Tea,4,2.99,11.96,Debit Card,108,True,,Takeout
+721,2025-05-06 04:08:26,10,Chocolate Cake,1,6.49,6.49,Debit Card,108,False,20.0,Delivery
+570,2025-05-06 04:26:19,2,Veggie Burger,4,9.49,37.96,Cash,102,True,,Takeout
+683,2025-05-06 06:21:34,1,Cheeseburger,4,10.99,43.96,Debit Card,105,False,18.0,Takeout
+183,2025-05-06 07:31:04,7,Steak,1,18.99,18.99,Credit Card,102,False,,Takeout
+491,2025-05-06 07:32:26,2,Veggie Burger,2,9.49,18.98,Debit Card,108,True,9.0,Delivery
+104,2025-05-06 07:35:38,8,Pasta Alfredo,1,13.99,13.99,Credit Card,110,True,,Dine-In
+973,2025-05-06 09:02:12,4,Coke,4,2.49,9.96,Mobile Payment,107,True,19.0,Takeout
+658,2025-05-06 09:43:33,6,Grilled Chicken Salad,4,11.49,45.96,Mobile Payment,109,True,2.0,Delivery
+348,2025-05-06 10:08:59,4,Coke,3,2.49,7.47,Credit Card,110,False,18.0,Delivery
+105,2025-05-06 10:50:21,5,Iced Tea,1,2.99,2.99,Debit Card,101,False,2.0,Takeout
+402,2025-05-06 11:12:40,5,Iced Tea,4,2.99,11.96,Debit Card,106,True,,Takeout
+298,2025-05-06 11:18:01,1,Cheeseburger,4,10.99,43.96,Cash,109,True,,Delivery
+786,2025-05-06 11:21:19,7,Steak,3,18.99,56.97,Cash,105,False,,Delivery
+735,2025-05-06 11:34:40,3,Fries,1,3.99,3.99,Mobile Payment,104,False,,Takeout
+412,2025-05-06 11:36:30,8,Pasta Alfredo,4,13.99,55.96,Mobile Payment,106,False,,Dine-In
+19,2025-05-06 11:51:55,9,Lemonade,2,2.79,5.58,Mobile Payment,110,False,,Dine-In
+356,2025-05-06 11:59:37,3,Fries,1,3.99,3.99,Mobile Payment,101,True,,Takeout
+54,2025-05-06 12:21:45,5,Iced Tea,2,2.99,5.98,Credit Card,109,False,,Takeout
+714,2025-05-06 12:34:26,6,Grilled Chicken Salad,4,11.49,45.96,Debit Card,110,True,8.0,Delivery
+199,2025-05-06 12:57:00,8,Pasta Alfredo,1,13.99,13.99,Mobile Payment,109,False,,Takeout
+619,2025-05-06 14:42:20,5,Iced Tea,3,2.99,8.97,Mobile Payment,108,False,,Takeout
+220,2025-05-06 14:55:20,3,Fries,3,3.99,11.97,Cash,110,True,,Delivery
+429,2025-05-06 15:06:30,2,Veggie Burger,1,9.49,9.49,Debit Card,109,False,,Takeout
+241,2025-05-06 15:29:53,5,Iced Tea,1,2.99,2.99,Cash,105,False,15.0,Takeout
+443,2025-05-06 16:07:13,4,Coke,4,2.49,9.96,Mobile Payment,101,False,,Takeout
+854,2025-05-06 16:26:06,1,Cheeseburger,2,10.99,21.98,Credit Card,106,False,6.0,Dine-In
+253,2025-05-06 17:24:00,7,Steak,3,18.99,56.97,Credit Card,107,False,,Dine-In
+189,2025-05-06 17:53:07,5,Iced Tea,3,2.99,8.97,Credit Card,104,True,,Dine-In
+328,2025-05-06 21:17:09,8,Pasta Alfredo,3,13.99,41.97,Credit Card,105,True,,Takeout
+5,2025-05-06 21:23:10,2,Veggie Burger,4,9.49,37.96,Mobile Payment,109,False,10.0,Dine-In
+828,2025-05-06 23:29:51,7,Steak,4,18.99,75.96,Debit Card,108,True,,Delivery
+698,2025-05-07 00:55:24,7,Steak,4,18.99,75.96,Credit Card,104,False,,Delivery
+111,2025-05-07 01:14:00,10,Chocolate Cake,2,6.49,12.98,Debit Card,108,True,,Takeout
+615,2025-05-07 02:00:54,9,Lemonade,2,2.79,5.58,Cash,102,False,8.0,Delivery
+867,2025-05-07 03:44:24,3,Fries,4,3.99,15.96,Debit Card,108,True,,Dine-In
+611,2025-05-07 03:54:22,2,Veggie Burger,3,9.49,28.47,Cash,110,True,3.0,Takeout
+45,2025-05-07 04:09:26,10,Chocolate Cake,2,6.49,12.98,Cash,108,False,17.0,Delivery
+40,2025-05-07 04:29:42,9,Lemonade,2,2.79,5.58,Cash,104,False,,Dine-In
+121,2025-05-07 04:36:32,5,Iced Tea,2,2.99,5.98,Credit Card,103,False,,Dine-In
+866,2025-05-07 07:20:35,5,Iced Tea,4,2.99,11.96,Mobile Payment,102,False,2.0,Takeout
+115,2025-05-07 09:08:49,6,Grilled Chicken Salad,2,11.49,22.98,Credit Card,108,True,3.0,Takeout
+664,2025-05-07 09:20:06,5,Iced Tea,3,2.99,8.97,Mobile Payment,101,True,,Delivery
+283,2025-05-07 09:49:38,1,Cheeseburger,2,10.99,21.98,Debit Card,105,False,,Delivery
+231,2025-05-07 09:53:46,9,Lemonade,3,2.79,8.37,Debit Card,107,False,,Delivery
+133,2025-05-07 10:17:13,7,Steak,1,18.99,18.99,Cash,101,False,,Dine-In
+181,2025-05-07 10:25:52,5,Iced Tea,1,2.99,2.99,Debit Card,103,True,19.0,Takeout
+957,2025-05-07 10:27:49,2,Veggie Burger,3,9.49,28.47,Credit Card,108,True,5.0,Delivery
+216,2025-05-07 10:42:45,6,Grilled Chicken Salad,1,11.49,11.49,Debit Card,109,True,,Dine-In
+632,2025-05-07 10:46:12,1,Cheeseburger,2,10.99,21.98,Mobile Payment,105,False,13.0,Delivery
+844,2025-05-07 11:20:34,1,Cheeseburger,4,10.99,43.96,Mobile Payment,104,False,,Dine-In
+1,2025-05-07 11:34:59,8,Pasta Alfredo,1,13.99,13.99,Mobile Payment,106,False,17.0,Takeout
+650,2025-05-07 11:44:44,8,Pasta Alfredo,2,13.99,27.98,Mobile Payment,108,False,,Takeout
+800,2025-05-07 13:47:59,2,Veggie Burger,4,9.49,37.96,Cash,104,True,2.0,Dine-In
+926,2025-05-07 14:05:07,1,Cheeseburger,4,10.99,43.96,Mobile Payment,108,False,,Takeout
+763,2025-05-07 14:29:27,4,Coke,3,2.49,7.47,Mobile Payment,105,False,,Delivery
+223,2025-05-07 14:40:46,6,Grilled Chicken Salad,2,11.49,22.98,Credit Card,108,True,,Delivery
+457,2025-05-07 15:02:18,1,Cheeseburger,3,10.99,32.97,Cash,108,False,,Dine-In
+794,2025-05-07 16:21:59,6,Grilled Chicken Salad,4,11.49,45.96,Credit Card,103,True,,Delivery
+981,2025-05-07 16:37:49,8,Pasta Alfredo,1,13.99,13.99,Credit Card,105,True,,Takeout
+774,2025-05-07 17:29:51,7,Steak,4,18.99,75.96,Cash,105,True,,Takeout
+333,2025-05-07 18:36:32,2,Veggie Burger,1,9.49,9.49,Credit Card,102,False,16.0,Takeout
+833,2025-05-07 18:37:17,9,Lemonade,3,2.79,8.37,Mobile Payment,109,True,,Delivery
+984,2025-05-07 19:50:30,3,Fries,2,3.99,7.98,Mobile Payment,107,False,,Takeout
+820,2025-05-07 20:46:26,1,Cheeseburger,3,10.99,32.97,Mobile Payment,107,True,,Delivery
+330,2025-05-07 20:56:36,10,Chocolate Cake,4,6.49,25.96,Mobile Payment,103,True,2.0,Delivery
+541,2025-05-07 21:17:20,2,Veggie Burger,2,9.49,18.98,Credit Card,105,True,3.0,Takeout
+862,2025-05-07 22:19:21,8,Pasta Alfredo,4,13.99,55.96,Credit Card,106,False,11.0,Delivery
+224,2025-05-07 22:47:36,9,Lemonade,4,2.79,11.16,Cash,104,True,,Delivery
+301,2025-05-07 23:24:24,4,Coke,1,2.49,2.49,Cash,105,False,,Dine-In
+577,2025-05-07 23:55:00,2,Veggie Burger,4,9.49,37.96,Credit Card,109,True,,Dine-In
+924,2025-05-08 00:05:28,8,Pasta Alfredo,3,13.99,41.97,Debit Card,106,False,2.0,Dine-In
+596,2025-05-08 01:01:48,7,Steak,4,18.99,75.96,Credit Card,107,False,,Delivery
+557,2025-05-08 02:53:29,2,Veggie Burger,4,9.49,37.96,Mobile Payment,101,True,,Takeout
+694,2025-05-08 03:50:46,3,Fries,4,3.99,15.96,Mobile Payment,110,True,11.0,Takeout
+972,2025-05-08 03:55:39,8,Pasta Alfredo,4,13.99,55.96,Mobile Payment,110,False,,Takeout
+169,2025-05-08 04:20:14,10,Chocolate Cake,2,6.49,12.98,Debit Card,110,True,19.0,Dine-In
+84,2025-05-08 04:44:36,2,Veggie Burger,4,9.49,37.96,Credit Card,108,True,,Delivery
+447,2025-05-08 05:00:29,6,Grilled Chicken Salad,2,11.49,22.98,Debit Card,109,True,5.0,Takeout
+563,2025-05-08 07:04:25,5,Iced Tea,1,2.99,2.99,Credit Card,102,False,,Delivery
+280,2025-05-08 08:28:29,7,Steak,2,18.99,37.98,Cash,110,True,17.0,Delivery
+32,2025-05-08 08:49:32,4,Coke,1,2.49,2.49,Mobile Payment,109,True,8.0,Takeout
+705,2025-05-08 09:43:45,6,Grilled Chicken Salad,4,11.49,45.96,Cash,106,False,13.0,Dine-In
+766,2025-05-08 09:51:05,7,Steak,1,18.99,18.99,Cash,110,True,,Takeout
+986,2025-05-08 10:10:06,8,Pasta Alfredo,1,13.99,13.99,Mobile Payment,103,True,13.0,Delivery
+693,2025-05-08 10:18:06,5,Iced Tea,3,2.99,8.97,Mobile Payment,110,True,,Dine-In
+151,2025-05-08 10:53:29,10,Chocolate Cake,2,6.49,12.98,Credit Card,109,True,,Takeout
+943,2025-05-08 11:14:01,6,Grilled Chicken Salad,3,11.49,34.47,Mobile Payment,101,False,,Dine-In
+637,2025-05-08 11:38:32,4,Coke,1,2.49,2.49,Credit Card,106,True,,Takeout
+618,2025-05-08 14:12:39,2,Veggie Burger,4,9.49,37.96,Mobile Payment,106,True,,Dine-In
+81,2025-05-08 15:26:01,2,Veggie Burger,1,9.49,9.49,Cash,104,True,18.0,Dine-In
+310,2025-05-08 15:31:35,2,Veggie Burger,2,9.49,18.98,Mobile Payment,101,True,1.0,Delivery
+264,2025-05-08 15:40:11,9,Lemonade,3,2.79,8.37,Mobile Payment,105,False,,Delivery
+546,2025-05-08 16:15:37,1,Cheeseburger,3,10.99,32.97,Mobile Payment,104,True,6.0,Takeout
+1000,2025-05-08 17:18:12,5,Iced Tea,1,2.99,2.99,Credit Card,109,True,,Takeout
+349,2025-05-08 17:22:51,7,Steak,3,18.99,56.97,Credit Card,104,True,,Dine-In
+302,2025-05-08 17:25:15,3,Fries,1,3.99,3.99,Cash,103,True,,Takeout
+628,2025-05-08 19:14:15,6,Grilled Chicken Salad,1,11.49,11.49,Cash,108,False,,Takeout
+379,2025-05-08 20:40:33,6,Grilled Chicken Salad,3,11.49,34.47,Cash,108,True,,Takeout
+674,2025-05-08 22:34:10,2,Veggie Burger,1,9.49,9.49,Mobile Payment,109,False,,Dine-In
+232,2025-05-08 23:10:54,6,Grilled Chicken Salad,2,11.49,22.98,Credit Card,103,True,,Dine-In
+352,2025-05-08 23:48:43,3,Fries,4,3.99,15.96,Mobile Payment,105,True,,Dine-In
+73,2025-05-09 01:29:20,4,Coke,2,2.49,4.98,Mobile Payment,106,True,,Takeout
+826,2025-05-09 01:33:20,7,Steak,3,18.99,56.97,Debit Card,108,True,10.0,Dine-In
+859,2025-05-09 02:08:19,10,Chocolate Cake,2,6.49,12.98,Cash,106,True,,Dine-In
+522,2025-05-09 03:52:57,7,Steak,4,18.99,75.96,Mobile Payment,107,False,,Delivery
+390,2025-05-09 04:02:26,10,Chocolate Cake,4,6.49,25.96,Mobile Payment,107,True,,Dine-In
+801,2025-05-09 04:07:23,5,Iced Tea,4,2.99,11.96,Debit Card,109,True,,Takeout
+789,2025-05-09 04:29:14,4,Coke,1,2.49,2.49,Cash,105,True,,Dine-In
+612,2025-05-09 05:30:47,6,Grilled Chicken Salad,4,11.49,45.96,Debit Card,101,False,,Dine-In
+843,2025-05-09 05:57:58,4,Coke,2,2.49,4.98,Cash,107,True,8.0,Delivery
+543,2025-05-09 07:41:07,10,Chocolate Cake,2,6.49,12.98,Credit Card,106,True,17.0,Takeout
+757,2025-05-09 07:42:34,5,Iced Tea,2,2.99,5.98,Cash,104,False,,Delivery
+483,2025-05-09 08:37:31,1,Cheeseburger,1,10.99,10.99,Debit Card,107,False,13.0,Delivery
+603,2025-05-09 08:52:50,1,Cheeseburger,2,10.99,21.98,Mobile Payment,104,False,2.0,Takeout
+270,2025-05-09 10:23:41,10,Chocolate Cake,4,6.49,25.96,Debit Card,101,True,,Dine-In
+962,2025-05-09 11:34:02,6,Grilled Chicken Salad,4,11.49,45.96,Cash,103,True,,Delivery
+594,2025-05-09 11:51:25,3,Fries,2,3.99,7.98,Credit Card,101,True,12.0,Delivery
+850,2025-05-09 13:23:54,9,Lemonade,4,2.79,11.16,Cash,101,True,,Takeout
+734,2025-05-09 14:15:24,8,Pasta Alfredo,2,13.99,27.98,Credit Card,106,False,7.0,Delivery
+313,2025-05-09 14:16:52,10,Chocolate Cake,4,6.49,25.96,Cash,101,True,,Dine-In
+261,2025-05-09 14:32:03,7,Steak,3,18.99,56.97,Credit Card,110,True,14.0,Takeout
+100,2025-05-09 15:08:48,4,Coke,3,2.49,7.47,Mobile Payment,110,True,20.0,Takeout
+858,2025-05-09 15:37:03,5,Iced Tea,1,2.99,2.99,Debit Card,109,False,,Delivery
+659,2025-05-09 15:44:54,2,Veggie Burger,1,9.49,9.49,Debit Card,110,False,,Takeout
+145,2025-05-09 18:58:04,3,Fries,4,3.99,15.96,Cash,107,False,7.0,Dine-In
+427,2025-05-09 19:15:02,4,Coke,1,2.49,2.49,Credit Card,102,True,,Takeout
+568,2025-05-09 19:22:56,6,Grilled Chicken Salad,1,11.49,11.49,Debit Card,104,True,,Takeout
+518,2025-05-09 21:35:11,3,Fries,2,3.99,7.98,Mobile Payment,108,True,,Dine-In
+933,2025-05-09 21:55:29,7,Steak,2,18.99,37.98,Mobile Payment,110,True,9.0,Takeout
+792,2025-05-09 22:14:42,3,Fries,3,3.99,11.97,Cash,101,True,,Dine-In
+57,2025-05-09 22:39:15,8,Pasta Alfredo,4,13.99,55.96,Cash,109,False,9.0,Delivery
+569,2025-05-09 23:41:50,4,Coke,2,2.49,4.98,Debit Card,108,False,,Takeout
+529,2025-05-10 00:02:27,3,Fries,1,3.99,3.99,Debit Card,110,True,6.0,Dine-In
+883,2025-05-10 00:50:23,2,Veggie Burger,3,9.49,28.47,Cash,104,True,,Dine-In
+358,2025-05-10 03:01:20,2,Veggie Burger,2,9.49,18.98,Credit Card,105,True,,Dine-In
+653,2025-05-10 05:56:02,4,Coke,4,2.49,9.96,Mobile Payment,104,True,18.0,Dine-In
+953,2025-05-10 06:41:47,8,Pasta Alfredo,1,13.99,13.99,Cash,104,False,,Delivery
+720,2025-05-10 07:00:55,6,Grilled Chicken Salad,3,11.49,34.47,Mobile Payment,108,False,13.0,Dine-In
+699,2025-05-10 07:09:55,10,Chocolate Cake,2,6.49,12.98,Mobile Payment,105,True,,Takeout
+481,2025-05-10 07:12:05,5,Iced Tea,1,2.99,2.99,Cash,102,False,,Dine-In
+337,2025-05-10 08:57:44,6,Grilled Chicken Salad,2,11.49,22.98,Mobile Payment,104,False,,Delivery
+942,2025-05-10 10:22:30,6,Grilled Chicken Salad,1,11.49,11.49,Credit Card,105,True,,Dine-In
+966,2025-05-10 11:40:07,3,Fries,2,3.99,7.98,Debit Card,101,True,,Dine-In
+130,2025-05-10 13:16:14,10,Chocolate Cake,4,6.49,25.96,Debit Card,107,False,,Takeout
+214,2025-05-10 13:30:19,5,Iced Tea,1,2.99,2.99,Debit Card,108,True,,Delivery
+706,2025-05-10 13:55:45,2,Veggie Burger,3,9.49,28.47,Credit Card,106,True,4.0,Delivery
+955,2025-05-10 15:10:43,10,Chocolate Cake,2,6.49,12.98,Credit Card,101,False,,Delivery
+14,2025-05-10 16:45:24,5,Iced Tea,3,2.99,8.97,Debit Card,109,True,,Dine-In
+897,2025-05-10 18:04:47,2,Veggie Burger,3,9.49,28.47,Debit Card,110,True,,Takeout
+128,2025-05-10 18:12:24,2,Veggie Burger,2,9.49,18.98,Mobile Payment,109,False,,Takeout
+321,2025-05-10 18:26:04,2,Veggie Burger,4,9.49,37.96,Debit Card,108,False,,Delivery
+35,2025-05-10 19:00:01,10,Chocolate Cake,2,6.49,12.98,Debit Card,108,False,,Dine-In
+274,2025-05-10 19:47:30,9,Lemonade,1,2.79,2.79,Credit Card,107,False,,Delivery
+505,2025-05-10 19:48:22,2,Veggie Burger,2,9.49,18.98,Debit Card,107,True,,Delivery
+576,2025-05-10 20:05:54,10,Chocolate Cake,2,6.49,12.98,Credit Card,103,False,,Dine-In
+930,2025-05-10 21:54:20,6,Grilled Chicken Salad,1,11.49,11.49,Credit Card,110,False,,Dine-In
+703,2025-05-10 22:25:23,7,Steak,1,18.99,18.99,Credit Card,103,True,,Takeout
+712,2025-05-10 22:51:12,3,Fries,4,3.99,15.96,Mobile Payment,107,True,2.0,Delivery
+875,2025-05-10 23:58:54,7,Steak,4,18.99,75.96,Credit Card,109,True,8.0,Delivery
+726,2025-05-10 23:59:11,7,Steak,3,18.99,56.97,Credit Card,107,True,,Takeout
+418,2025-05-11 00:12:08,8,Pasta Alfredo,4,13.99,55.96,Mobile Payment,104,False,,Delivery
+895,2025-05-11 00:45:22,7,Steak,4,18.99,75.96,Credit Card,105,False,,Dine-In
+849,2025-05-11 01:08:09,10,Chocolate Cake,2,6.49,12.98,Cash,103,False,15.0,Delivery
+362,2025-05-11 02:07:16,10,Chocolate Cake,3,6.49,19.47,Cash,102,True,,Dine-In
+732,2025-05-11 03:04:50,7,Steak,4,18.99,75.96,Mobile Payment,106,False,16.0,Takeout
+964,2025-05-11 03:21:57,6,Grilled Chicken Salad,1,11.49,11.49,Credit Card,105,False,5.0,Delivery
+344,2025-05-11 03:51:48,4,Coke,2,2.49,4.98,Debit Card,104,True,,Takeout
+634,2025-05-11 04:56:11,4,Coke,3,2.49,7.47,Cash,101,True,,Delivery
+645,2025-05-11 05:08:20,2,Veggie Burger,4,9.49,37.96,Debit Card,104,False,6.0,Delivery
+28,2025-05-11 05:44:11,8,Pasta Alfredo,4,13.99,55.96,Credit Card,110,True,17.0,Delivery
+566,2025-05-11 05:58:02,6,Grilled Chicken Salad,4,11.49,45.96,Credit Card,102,True,20.0,Delivery
+47,2025-05-11 06:07:45,8,Pasta Alfredo,1,13.99,13.99,Cash,108,True,,Dine-In
+667,2025-05-11 08:19:54,4,Coke,1,2.49,2.49,Cash,110,False,,Takeout
+797,2025-05-11 11:21:30,8,Pasta Alfredo,2,13.99,27.98,Credit Card,101,False,,Dine-In
+254,2025-05-11 13:10:02,6,Grilled Chicken Salad,3,11.49,34.47,Debit Card,102,False,,Dine-In
+213,2025-05-11 13:11:15,1,Cheeseburger,3,10.99,32.97,Credit Card,103,True,3.0,Dine-In
+928,2025-05-11 13:15:46,4,Coke,2,2.49,4.98,Credit Card,107,False,1.0,Delivery
+325,2025-05-11 13:42:19,8,Pasta Alfredo,1,13.99,13.99,Credit Card,106,False,16.0,Takeout
+85,2025-05-11 14:13:32,4,Coke,3,2.49,7.47,Cash,107,False,10.0,Takeout
+829,2025-05-11 14:45:17,6,Grilled Chicken Salad,1,11.49,11.49,Debit Card,107,False,,Delivery
+783,2025-05-11 15:03:49,9,Lemonade,2,2.79,5.58,Debit Card,103,True,,Delivery
+608,2025-05-11 15:19:44,2,Veggie Burger,1,9.49,9.49,Mobile Payment,101,True,,Delivery
+948,2025-05-11 16:53:38,8,Pasta Alfredo,3,13.99,41.97,Mobile Payment,101,True,18.0,Takeout
+523,2025-05-11 16:57:00,10,Chocolate Cake,2,6.49,12.98,Credit Card,110,False,,Delivery
+467,2025-05-11 17:43:12,7,Steak,1,18.99,18.99,Cash,104,True,1.0,Dine-In
+452,2025-05-11 17:50:25,4,Coke,4,2.49,9.96,Mobile Payment,109,True,,Dine-In
+88,2025-05-11 17:53:45,9,Lemonade,2,2.79,5.58,Cash,110,False,,Dine-In
+284,2025-05-11 18:05:05,9,Lemonade,4,2.79,11.16,Debit Card,103,True,17.0,Takeout
+474,2025-05-11 19:30:04,5,Iced Tea,2,2.99,5.98,Credit Card,109,True,,Takeout
+958,2025-05-11 19:47:15,2,Veggie Burger,1,9.49,9.49,Mobile Payment,105,True,,Takeout
+996,2025-05-11 19:47:53,5,Iced Tea,3,2.99,8.97,Mobile Payment,107,False,,Delivery
+303,2025-05-11 19:51:07,2,Veggie Burger,3,9.49,28.47,Cash,101,False,10.0,Dine-In
+41,2025-05-11 23:10:11,1,Cheeseburger,4,10.99,43.96,Debit Card,104,False,,Dine-In
+250,2025-05-12 02:42:40,1,Cheeseburger,2,10.99,21.98,Debit Card,104,False,,Delivery
+847,2025-05-12 03:34:58,8,Pasta Alfredo,1,13.99,13.99,Credit Card,104,True,,Delivery
+784,2025-05-12 03:56:15,1,Cheeseburger,2,10.99,21.98,Mobile Payment,103,True,,Dine-In
+500,2025-05-12 05:16:01,7,Steak,3,18.99,56.97,Mobile Payment,105,True,,Delivery
+393,2025-05-12 05:20:27,8,Pasta Alfredo,4,13.99,55.96,Debit Card,108,False,4.0,Takeout
+562,2025-05-12 06:13:58,1,Cheeseburger,4,10.99,43.96,Debit Card,102,False,,Takeout
+406,2025-05-12 06:18:23,10,Chocolate Cake,1,6.49,6.49,Debit Card,102,True,,Delivery
+999,2025-05-12 06:48:18,1,Cheeseburger,1,10.99,10.99,Debit Card,101,True,,Dine-In
+824,2025-05-12 07:27:03,6,Grilled Chicken Salad,3,11.49,34.47,Cash,103,False,,Takeout
+756,2025-05-12 07:28:52,10,Chocolate Cake,2,6.49,12.98,Credit Card,101,False,,Dine-In
+473,2025-05-12 08:17:51,3,Fries,1,3.99,3.99,Cash,104,True,20.0,Takeout
+136,2025-05-12 08:26:27,9,Lemonade,1,2.79,2.79,Mobile Payment,105,False,,Dine-In
+979,2025-05-12 08:35:33,9,Lemonade,3,2.79,8.37,Credit Card,109,True,,Dine-In
+515,2025-05-12 08:36:40,10,Chocolate Cake,3,6.49,19.47,Mobile Payment,110,True,14.0,Dine-In
+597,2025-05-12 08:41:18,1,Cheeseburger,4,10.99,43.96,Credit Card,105,True,2.0,Delivery
+551,2025-05-12 08:42:12,10,Chocolate Cake,2,6.49,12.98,Cash,102,True,,Delivery
+246,2025-05-12 08:53:18,3,Fries,3,3.99,11.97,Mobile Payment,101,True,,Delivery
+671,2025-05-12 09:06:59,8,Pasta Alfredo,1,13.99,13.99,Credit Card,110,False,12.0,Delivery
+752,2025-05-12 09:24:18,6,Grilled Chicken Salad,4,11.49,45.96,Mobile Payment,102,True,12.0,Takeout
+707,2025-05-12 11:09:36,7,Steak,3,18.99,56.97,Credit Card,108,True,,Dine-In
+861,2025-05-12 12:04:03,6,Grilled Chicken Salad,1,11.49,11.49,Debit Card,102,False,7.0,Takeout
+171,2025-05-12 12:26:26,4,Coke,3,2.49,7.47,Debit Card,106,False,18.0,Delivery
+616,2025-05-12 13:04:27,10,Chocolate Cake,1,6.49,6.49,Mobile Payment,110,True,,Delivery
+494,2025-05-12 13:45:15,6,Grilled Chicken Salad,3,11.49,34.47,Debit Card,101,False,,Dine-In
+166,2025-05-12 13:51:33,5,Iced Tea,4,2.99,11.96,Debit Card,110,False,,Takeout
+384,2025-05-12 14:37:35,3,Fries,3,3.99,11.97,Mobile Payment,110,False,,Dine-In
+508,2025-05-12 14:38:29,1,Cheeseburger,1,10.99,10.99,Mobile Payment,102,True,11.0,Dine-In
+351,2025-05-12 16:15:08,8,Pasta Alfredo,1,13.99,13.99,Debit Card,108,False,,Dine-In
+180,2025-05-12 18:32:52,10,Chocolate Cake,2,6.49,12.98,Cash,104,False,10.0,Dine-In
+871,2025-05-12 19:05:30,6,Grilled Chicken Salad,3,11.49,34.47,Mobile Payment,102,True,13.0,Delivery
+517,2025-05-12 20:17:14,1,Cheeseburger,2,10.99,21.98,Mobile Payment,106,False,3.0,Delivery
+357,2025-05-12 21:25:18,6,Grilled Chicken Salad,1,11.49,11.49,Cash,107,False,9.0,Delivery
+482,2025-05-12 21:31:04,2,Veggie Burger,3,9.49,28.47,Cash,102,True,12.0,Takeout
+438,2025-05-12 22:43:34,8,Pasta Alfredo,3,13.99,41.97,Debit Card,102,True,3.0,Dine-In
+13,2025-05-12 22:45:45,5,Iced Tea,3,2.99,8.97,Mobile Payment,104,False,3.0,Takeout
+687,2025-05-12 23:08:08,8,Pasta Alfredo,2,13.99,27.98,Mobile Payment,109,True,,Delivery
+575,2025-05-12 23:21:18,8,Pasta Alfredo,4,13.99,55.96,Debit Card,110,False,,Takeout
+514,2025-05-13 00:24:04,8,Pasta Alfredo,2,13.99,27.98,Credit Card,108,False,,Takeout
+159,2025-05-13 00:43:34,9,Lemonade,3,2.79,8.37,Cash,107,False,,Delivery
+200,2025-05-13 03:01:57,4,Coke,4,2.49,9.96,Credit Card,103,False,8.0,Takeout
+874,2025-05-13 04:10:31,5,Iced Tea,1,2.99,2.99,Cash,103,False,,Delivery
+67,2025-05-13 04:29:37,2,Veggie Burger,4,9.49,37.96,Debit Card,101,True,18.0,Delivery
+363,2025-05-13 04:32:57,9,Lemonade,3,2.79,8.37,Debit Card,110,False,13.0,Dine-In
+605,2025-05-13 05:26:30,8,Pasta Alfredo,2,13.99,27.98,Credit Card,104,True,17.0,Delivery
+400,2025-05-13 07:14:17,2,Veggie Burger,4,9.49,37.96,Mobile Payment,106,True,3.0,Dine-In
+343,2025-05-13 09:30:01,6,Grilled Chicken Salad,4,11.49,45.96,Debit Card,109,True,,Dine-In
+391,2025-05-13 10:08:19,6,Grilled Chicken Salad,3,11.49,34.47,Credit Card,105,True,15.0,Dine-In
+92,2025-05-13 10:18:02,8,Pasta Alfredo,4,13.99,55.96,Mobile Payment,108,False,11.0,Dine-In
+560,2025-05-13 10:23:11,8,Pasta Alfredo,1,13.99,13.99,Credit Card,101,True,,Takeout
+285,2025-05-13 10:34:30,9,Lemonade,2,2.79,5.58,Debit Card,110,True,10.0,Dine-In
+745,2025-05-13 10:34:51,1,Cheeseburger,3,10.99,32.97,Cash,105,False,14.0,Delivery
+915,2025-05-13 10:44:25,6,Grilled Chicken Salad,3,11.49,34.47,Debit Card,104,False,,Dine-In
+227,2025-05-13 11:20:51,10,Chocolate Cake,4,6.49,25.96,Mobile Payment,107,False,,Takeout
+496,2025-05-13 11:58:34,4,Coke,4,2.49,9.96,Debit Card,106,True,,Dine-In
+620,2025-05-13 12:13:49,5,Iced Tea,4,2.99,11.96,Credit Card,102,False,,Delivery
+219,2025-05-13 13:50:46,2,Veggie Burger,4,9.49,37.96,Mobile Payment,105,True,,Delivery
+678,2025-05-13 14:31:28,10,Chocolate Cake,3,6.49,19.47,Credit Card,105,False,9.0,Takeout
+876,2025-05-13 15:54:50,1,Cheeseburger,3,10.99,32.97,Cash,109,False,16.0,Dine-In
+318,2025-05-13 17:50:01,6,Grilled Chicken Salad,4,11.49,45.96,Mobile Payment,103,True,14.0,Delivery
+292,2025-05-13 18:12:54,9,Lemonade,3,2.79,8.37,Cash,103,True,,Dine-In
+422,2025-05-13 19:22:35,8,Pasta Alfredo,2,13.99,27.98,Debit Card,108,False,9.0,Delivery
+109,2025-05-13 19:34:04,9,Lemonade,3,2.79,8.37,Credit Card,106,False,,Takeout
+129,2025-05-13 19:49:17,6,Grilled Chicken Salad,2,11.49,22.98,Credit Card,102,False,,Takeout
+780,2025-05-13 20:33:32,1,Cheeseburger,4,10.99,43.96,Credit Card,105,True,,Delivery
+625,2025-05-13 21:40:32,1,Cheeseburger,4,10.99,43.96,Cash,110,False,,Dine-In
+524,2025-05-13 21:50:50,2,Veggie Burger,1,9.49,9.49,Mobile Payment,106,True,7.0,Dine-In
+376,2025-05-13 22:28:15,8,Pasta Alfredo,2,13.99,27.98,Mobile Payment,105,False,,Takeout
+754,2025-05-13 23:24:39,5,Iced Tea,3,2.99,8.97,Debit Card,104,False,,Takeout
+177,2025-05-13 23:27:10,5,Iced Tea,1,2.99,2.99,Debit Card,102,True,4.0,Takeout
+235,2025-05-13 23:45:53,8,Pasta Alfredo,3,13.99,41.97,Cash,105,False,11.0,Dine-In
+835,2025-05-13 23:53:28,8,Pasta Alfredo,1,13.99,13.99,Mobile Payment,103,True,,Dine-In
+651,2025-05-14 00:10:26,4,Coke,4,2.49,9.96,Debit Card,102,True,,Delivery
+810,2025-05-14 01:02:13,10,Chocolate Cake,4,6.49,25.96,Debit Card,109,False,19.0,Takeout
+336,2025-05-14 01:21:40,5,Iced Tea,4,2.99,11.96,Debit Card,101,True,,Delivery
+495,2025-05-14 01:50:19,8,Pasta Alfredo,2,13.99,27.98,Credit Card,104,True,,Takeout
+408,2025-05-14 03:15:34,8,Pasta Alfredo,1,13.99,13.99,Credit Card,103,True,10.0,Delivery
+475,2025-05-14 03:37:47,9,Lemonade,1,2.79,2.79,Debit Card,101,False,,Delivery
+542,2025-05-14 05:01:01,6,Grilled Chicken Salad,3,11.49,34.47,Debit Card,101,False,8.0,Dine-In
+891,2025-05-14 07:05:49,6,Grilled Chicken Salad,3,11.49,34.47,Mobile Payment,107,False,,Dine-In
+143,2025-05-14 07:37:17,5,Iced Tea,2,2.99,5.98,Credit Card,109,False,,Takeout
+547,2025-05-14 10:27:18,1,Cheeseburger,3,10.99,32.97,Debit Card,105,False,,Delivery
+956,2025-05-14 10:44:33,5,Iced Tea,3,2.99,8.97,Debit Card,104,True,,Delivery
+315,2025-05-14 11:05:04,7,Steak,3,18.99,56.97,Mobile Payment,109,False,,Takeout
+27,2025-05-14 11:48:25,7,Steak,3,18.99,56.97,Credit Card,109,False,,Dine-In
+255,2025-05-14 12:28:41,5,Iced Tea,3,2.99,8.97,Debit Card,104,False,15.0,Dine-In
+977,2025-05-14 13:24:29,3,Fries,1,3.99,3.99,Credit Card,101,True,11.0,Delivery
+300,2025-05-14 14:12:25,4,Coke,2,2.49,4.98,Credit Card,101,False,,Dine-In
+860,2025-05-14 15:03:04,4,Coke,1,2.49,2.49,Credit Card,106,True,,Dine-In
+435,2025-05-14 16:08:57,4,Coke,1,2.49,2.49,Credit Card,110,True,9.0,Delivery
+431,2025-05-14 16:23:16,1,Cheeseburger,4,10.99,43.96,Mobile Payment,110,False,,Takeout
+91,2025-05-14 16:41:35,10,Chocolate Cake,4,6.49,25.96,Debit Card,104,False,,Delivery
+870,2025-05-14 18:20:49,2,Veggie Burger,1,9.49,9.49,Credit Card,108,True,17.0,Delivery
+311,2025-05-14 18:38:03,10,Chocolate Cake,3,6.49,19.47,Debit Card,102,True,3.0,Delivery
+324,2025-05-14 18:41:08,1,Cheeseburger,2,10.99,21.98,Debit Card,103,True,,Dine-In
+578,2025-05-14 18:47:09,6,Grilled Chicken Salad,4,11.49,45.96,Debit Card,101,True,7.0,Takeout
+442,2025-05-14 22:11:39,5,Iced Tea,2,2.99,5.98,Debit Card,110,True,,Delivery
+869,2025-05-14 22:24:40,1,Cheeseburger,2,10.99,21.98,Mobile Payment,103,False,,Takeout
+477,2025-05-15 00:11:51,6,Grilled Chicken Salad,3,11.49,34.47,Debit Card,108,True,,Delivery
+647,2025-05-15 00:15:40,1,Cheeseburger,2,10.99,21.98,Cash,105,True,12.0,Dine-In
+715,2025-05-15 02:23:32,7,Steak,1,18.99,18.99,Cash,105,True,16.0,Takeout
+613,2025-05-15 03:04:27,8,Pasta Alfredo,2,13.99,27.98,Cash,109,True,,Takeout
+989,2025-05-15 03:48:17,4,Coke,1,2.49,2.49,Debit Card,106,True,4.0,Takeout
+386,2025-05-15 04:30:14,3,Fries,2,3.99,7.98,Mobile Payment,110,False,,Delivery
+489,2025-05-15 05:33:33,9,Lemonade,2,2.79,5.58,Mobile Payment,110,False,,Dine-In
+711,2025-05-15 07:52:31,10,Chocolate Cake,3,6.49,19.47,Mobile Payment,101,False,,Takeout
+583,2025-05-15 09:00:18,9,Lemonade,4,2.79,11.16,Credit Card,108,False,,Delivery
+680,2025-05-15 09:20:54,5,Iced Tea,3,2.99,8.97,Mobile Payment,104,False,,Takeout
+769,2025-05-15 09:37:34,5,Iced Tea,4,2.99,11.96,Credit Card,103,True,,Takeout
+987,2025-05-15 10:30:48,9,Lemonade,3,2.79,8.37,Mobile Payment,102,False,3.0,Delivery
+2,2025-05-15 10:41:00,2,Veggie Burger,1,9.49,9.49,Cash,107,False,,Dine-In
+69,2025-05-15 12:33:02,5,Iced Tea,3,2.99,8.97,Mobile Payment,104,False,,Delivery
+588,2025-05-15 13:13:02,9,Lemonade,1,2.79,2.79,Cash,104,True,16.0,Dine-In
+691,2025-05-15 14:25:16,6,Grilled Chicken Salad,2,11.49,22.98,Debit Card,104,False,,Delivery
+506,2025-05-15 14:29:12,2,Veggie Burger,1,9.49,9.49,Credit Card,107,True,,Dine-In
+392,2025-05-15 14:56:27,10,Chocolate Cake,2,6.49,12.98,Cash,106,True,11.0,Takeout
+668,2025-05-15 16:13:26,5,Iced Tea,2,2.99,5.98,Cash,102,True,,Takeout
+939,2025-05-15 16:19:12,5,Iced Tea,1,2.99,2.99,Cash,107,True,,Takeout
+12,2025-05-15 17:10:07,2,Veggie Burger,4,9.49,37.96,Mobile Payment,105,False,11.0,Dine-In
+125,2025-05-15 19:22:15,5,Iced Tea,2,2.99,5.98,Mobile Payment,105,True,,Dine-In
+636,2025-05-15 19:32:14,5,Iced Tea,4,2.99,11.96,Cash,102,False,17.0,Dine-In
+249,2025-05-15 20:09:20,9,Lemonade,2,2.79,5.58,Cash,104,False,3.0,Delivery
+798,2025-05-15 22:21:08,8,Pasta Alfredo,3,13.99,41.97,Debit Card,102,True,,Delivery
+218,2025-05-15 22:29:52,5,Iced Tea,3,2.99,8.97,Cash,108,False,,Delivery
+173,2025-05-15 23:09:24,2,Veggie Burger,3,9.49,28.47,Mobile Payment,106,True,,Takeout
+347,2025-05-15 23:26:54,8,Pasta Alfredo,1,13.99,13.99,Credit Card,106,False,8.0,Delivery
+846,2025-05-15 23:46:59,9,Lemonade,3,2.79,8.37,Mobile Payment,104,True,,Delivery
+61,2025-05-16 01:01:07,3,Fries,2,3.99,7.98,Mobile Payment,106,False,,Takeout
+16,2025-05-16 03:20:05,8,Pasta Alfredo,2,13.99,27.98,Cash,103,False,,Dine-In
+407,2025-05-16 04:02:11,2,Veggie Burger,2,9.49,18.98,Mobile Payment,101,False,,Delivery
+195,2025-05-16 05:14:54,9,Lemonade,3,2.79,8.37,Credit Card,104,True,10.0,Dine-In
+385,2025-05-16 05:36:53,1,Cheeseburger,4,10.99,43.96,Credit Card,107,True,,Dine-In
+762,2025-05-16 06:08:46,10,Chocolate Cake,4,6.49,25.96,Credit Card,102,False,,Dine-In
+395,2025-05-16 06:25:37,7,Steak,1,18.99,18.99,Mobile Payment,110,False,,Delivery
+90,2025-05-16 06:46:08,1,Cheeseburger,1,10.99,10.99,Mobile Payment,106,True,,Takeout
+60,2025-05-16 07:42:01,8,Pasta Alfredo,1,13.99,13.99,Cash,108,False,5.0,Dine-In
+355,2025-05-16 07:48:25,5,Iced Tea,2,2.99,5.98,Debit Card,109,False,,Delivery
+326,2025-05-16 10:50:53,3,Fries,4,3.99,15.96,Debit Card,105,True,8.0,Takeout
+222,2025-05-16 11:05:17,7,Steak,4,18.99,75.96,Credit Card,110,False,,Takeout
+549,2025-05-16 11:48:18,3,Fries,1,3.99,3.99,Mobile Payment,105,False,,Delivery
+252,2025-05-16 12:27:32,7,Steak,4,18.99,75.96,Cash,102,False,4.0,Delivery
+644,2025-05-16 14:17:44,5,Iced Tea,3,2.99,8.97,Mobile Payment,103,True,,Dine-In
+969,2025-05-16 15:20:58,10,Chocolate Cake,3,6.49,19.47,Cash,108,True,,Dine-In
+807,2025-05-16 15:27:24,6,Grilled Chicken Salad,4,11.49,45.96,Cash,102,False,,Dine-In
+176,2025-05-16 15:34:41,9,Lemonade,2,2.79,5.58,Debit Card,102,True,12.0,Dine-In
+662,2025-05-16 15:45:40,3,Fries,3,3.99,11.97,Cash,106,False,8.0,Delivery
+609,2025-05-16 15:50:03,10,Chocolate Cake,3,6.49,19.47,Cash,103,False,,Dine-In
+221,2025-05-16 17:18:10,1,Cheeseburger,3,10.99,32.97,Cash,103,False,9.0,Dine-In
+728,2025-05-16 17:52:20,4,Coke,2,2.49,4.98,Debit Card,110,False,12.0,Takeout
+600,2025-05-16 19:01:14,5,Iced Tea,1,2.99,2.99,Mobile Payment,108,False,,Takeout
+89,2025-05-16 19:16:42,4,Coke,4,2.49,9.96,Debit Card,104,False,,Dine-In
+74,2025-05-16 19:17:31,4,Coke,4,2.49,9.96,Credit Card,105,True,,Takeout
+907,2025-05-16 19:18:20,9,Lemonade,1,2.79,2.79,Cash,109,False,9.0,Delivery
+589,2025-05-16 19:39:15,8,Pasta Alfredo,2,13.99,27.98,Cash,107,False,,Delivery
+638,2025-05-16 19:42:04,9,Lemonade,3,2.79,8.37,Cash,110,False,10.0,Takeout
+951,2025-05-16 19:57:25,5,Iced Tea,2,2.99,5.98,Mobile Payment,105,True,11.0,Takeout
+595,2025-05-16 20:53:46,10,Chocolate Cake,3,6.49,19.47,Cash,108,True,,Delivery
+411,2025-05-16 20:54:04,8,Pasta Alfredo,1,13.99,13.99,Debit Card,104,True,,Dine-In
+493,2025-05-16 22:23:22,7,Steak,3,18.99,56.97,Mobile Payment,108,True,8.0,Dine-In
+463,2025-05-17 02:07:00,6,Grilled Chicken Salad,4,11.49,45.96,Cash,102,False,,Dine-In
+988,2025-05-17 02:54:20,9,Lemonade,4,2.79,11.16,Mobile Payment,107,False,,Takeout
+56,2025-05-17 03:23:43,2,Veggie Burger,3,9.49,28.47,Cash,106,False,,Dine-In
+598,2025-05-17 03:32:53,2,Veggie Burger,3,9.49,28.47,Debit Card,101,False,,Delivery
+531,2025-05-17 04:07:21,5,Iced Tea,4,2.99,11.96,Debit Card,108,True,,Dine-In
+983,2025-05-17 04:43:41,6,Grilled Chicken Salad,4,11.49,45.96,Credit Card,107,False,,Delivery
+142,2025-05-17 06:38:22,9,Lemonade,3,2.79,8.37,Debit Card,103,True,,Delivery
+66,2025-05-17 07:43:57,7,Steak,3,18.99,56.97,Cash,104,True,,Delivery
+492,2025-05-17 08:24:57,3,Fries,4,3.99,15.96,Mobile Payment,104,False,,Takeout
+834,2025-05-17 09:39:03,4,Coke,4,2.49,9.96,Debit Card,109,True,,Dine-In
+633,2025-05-17 13:40:24,5,Iced Tea,1,2.99,2.99,Debit Card,102,True,,Delivery
+95,2025-05-17 17:18:29,8,Pasta Alfredo,3,13.99,41.97,Debit Card,110,True,,Delivery
+409,2025-05-17 17:52:07,2,Veggie Burger,1,9.49,9.49,Cash,102,False,,Delivery
+410,2025-05-17 18:21:28,4,Coke,1,2.49,2.49,Mobile Payment,110,True,8.0,Takeout
+468,2025-05-17 18:25:15,5,Iced Tea,4,2.99,11.96,Debit Card,109,True,,Takeout
+666,2025-05-17 18:45:29,4,Coke,3,2.49,7.47,Cash,109,False,18.0,Takeout
+368,2025-05-17 19:29:14,5,Iced Tea,2,2.99,5.98,Cash,105,True,,Dine-In
+791,2025-05-17 22:16:36,1,Cheeseburger,1,10.99,10.99,Credit Card,106,False,,Dine-In
+416,2025-05-17 22:39:16,4,Coke,1,2.49,2.49,Debit Card,104,False,,Delivery
+765,2025-05-18 00:07:07,2,Veggie Burger,3,9.49,28.47,Cash,105,True,,Delivery
+190,2025-05-18 00:29:32,7,Steak,1,18.99,18.99,Credit Card,107,True,,Delivery
+226,2025-05-18 00:42:26,5,Iced Tea,3,2.99,8.97,Debit Card,110,False,17.0,Takeout
+306,2025-05-18 01:45:29,8,Pasta Alfredo,1,13.99,13.99,Mobile Payment,108,True,17.0,Delivery
+937,2025-05-18 01:50:11,9,Lemonade,4,2.79,11.16,Cash,110,False,,Dine-In
+182,2025-05-18 02:33:07,6,Grilled Chicken Salad,4,11.49,45.96,Mobile Payment,109,False,,Delivery
+230,2025-05-18 03:11:25,9,Lemonade,3,2.79,8.37,Credit Card,104,False,,Dine-In
+338,2025-05-18 03:24:17,5,Iced Tea,2,2.99,5.98,Cash,108,True,,Takeout
+172,2025-05-18 04:08:14,6,Grilled Chicken Salad,3,11.49,34.47,Debit Card,102,False,,Takeout
+64,2025-05-18 04:29:41,7,Steak,4,18.99,75.96,Debit Card,108,True,,Dine-In
+490,2025-05-18 05:25:00,4,Coke,4,2.49,9.96,Mobile Payment,101,True,,Dine-In
+164,2025-05-18 05:58:53,9,Lemonade,2,2.79,5.58,Credit Card,107,True,14.0,Dine-In
+10,2025-05-18 06:57:26,1,Cheeseburger,3,10.99,32.97,Mobile Payment,102,True,,Delivery
+286,2025-05-18 07:29:02,7,Steak,1,18.99,18.99,Debit Card,104,True,,Delivery
+740,2025-05-18 08:00:03,4,Coke,4,2.49,9.96,Mobile Payment,108,False,,Dine-In
+340,2025-05-18 10:27:25,5,Iced Tea,3,2.99,8.97,Mobile Payment,109,True,,Takeout
+323,2025-05-18 12:07:46,7,Steak,3,18.99,56.97,Credit Card,108,False,,Dine-In
+335,2025-05-18 12:27:40,8,Pasta Alfredo,2,13.99,27.98,Cash,101,False,,Dine-In
+880,2025-05-18 12:58:05,9,Lemonade,1,2.79,2.79,Credit Card,108,True,10.0,Delivery
+212,2025-05-18 12:59:08,8,Pasta Alfredo,3,13.99,41.97,Cash,107,True,,Takeout
+502,2025-05-18 14:14:01,5,Iced Tea,3,2.99,8.97,Cash,110,False,,Takeout
+601,2025-05-18 16:24:29,9,Lemonade,4,2.79,11.16,Debit Card,110,True,,Takeout
+604,2025-05-18 17:58:30,7,Steak,2,18.99,37.98,Mobile Payment,106,False,,Delivery
+530,2025-05-18 18:16:58,3,Fries,3,3.99,11.97,Mobile Payment,105,False,,Takeout
+20,2025-05-18 18:18:47,5,Iced Tea,1,2.99,2.99,Mobile Payment,105,False,,Delivery
+327,2025-05-18 18:54:13,4,Coke,3,2.49,7.47,Mobile Payment,105,True,15.0,Dine-In
+405,2025-05-18 20:55:56,6,Grilled Chicken Salad,4,11.49,45.96,Credit Card,108,True,,Takeout
+320,2025-05-18 21:20:11,2,Veggie Burger,1,9.49,9.49,Credit Card,101,False,16.0,Delivery
+736,2025-05-18 21:43:04,2,Veggie Burger,2,9.49,18.98,Cash,107,True,,Dine-In
+782,2025-05-18 22:54:37,8,Pasta Alfredo,1,13.99,13.99,Mobile Payment,109,True,,Dine-In
+796,2025-05-18 23:42:39,6,Grilled Chicken Salad,2,11.49,22.98,Mobile Payment,104,True,12.0,Delivery
+747,2025-05-19 00:37:06,5,Iced Tea,4,2.99,11.96,Debit Card,108,True,2.0,Takeout
+889,2025-05-19 00:39:38,9,Lemonade,3,2.79,8.37,Credit Card,102,True,10.0,Delivery
+209,2025-05-19 02:29:06,6,Grilled Chicken Salad,3,11.49,34.47,Debit Card,104,False,14.0,Dine-In
+832,2025-05-19 02:57:43,5,Iced Tea,1,2.99,2.99,Mobile Payment,102,True,,Delivery
+425,2025-05-19 03:08:57,6,Grilled Chicken Salad,4,11.49,45.96,Debit Card,102,False,,Dine-In
+341,2025-05-19 03:44:45,6,Grilled Chicken Salad,1,11.49,11.49,Credit Card,101,True,10.0,Dine-In
+864,2025-05-19 04:12:16,3,Fries,2,3.99,7.98,Mobile Payment,103,True,,Takeout
+322,2025-05-19 04:17:04,8,Pasta Alfredo,1,13.99,13.99,Credit Card,104,False,,Delivery
+308,2025-05-19 05:02:49,6,Grilled Chicken Salad,2,11.49,22.98,Mobile Payment,108,True,10.0,Takeout
+332,2025-05-19 06:14:42,4,Coke,2,2.49,4.98,Mobile Payment,109,False,1.0,Takeout
+31,2025-05-19 06:57:23,1,Cheeseburger,4,10.99,43.96,Mobile Payment,109,True,,Takeout
+485,2025-05-19 07:42:40,2,Veggie Burger,2,9.49,18.98,Credit Card,106,False,,Takeout
+243,2025-05-19 08:11:06,4,Coke,2,2.49,4.98,Cash,107,False,10.0,Delivery
+478,2025-05-19 09:39:49,9,Lemonade,1,2.79,2.79,Credit Card,104,False,,Takeout
+710,2025-05-19 10:16:04,4,Coke,1,2.49,2.49,Mobile Payment,110,True,1.0,Takeout
+144,2025-05-19 11:28:57,1,Cheeseburger,4,10.99,43.96,Cash,101,False,,Delivery
+119,2025-05-19 12:04:51,1,Cheeseburger,2,10.99,21.98,Cash,104,False,13.0,Dine-In
+886,2025-05-19 13:14:57,9,Lemonade,1,2.79,2.79,Debit Card,106,True,,Delivery
+614,2025-05-19 13:26:37,2,Veggie Burger,3,9.49,28.47,Debit Card,106,True,,Dine-In
+269,2025-05-19 14:05:29,7,Steak,1,18.99,18.99,Credit Card,109,False,,Takeout
+827,2025-05-19 14:16:49,4,Coke,4,2.49,9.96,Mobile Payment,105,True,2.0,Delivery
+134,2025-05-19 15:34:27,10,Chocolate Cake,4,6.49,25.96,Debit Card,102,True,,Delivery
+282,2025-05-19 16:18:57,5,Iced Tea,3,2.99,8.97,Credit Card,104,True,,Dine-In
+555,2025-05-19 16:57:43,3,Fries,1,3.99,3.99,Cash,104,True,12.0,Delivery
+660,2025-05-19 17:48:14,8,Pasta Alfredo,4,13.99,55.96,Cash,107,False,6.0,Dine-In
+947,2025-05-19 19:13:12,2,Veggie Burger,2,9.49,18.98,Mobile Payment,103,False,,Takeout
+559,2025-05-19 19:13:31,2,Veggie Burger,2,9.49,18.98,Cash,102,False,,Dine-In
+277,2025-05-19 20:37:09,3,Fries,4,3.99,15.96,Mobile Payment,101,False,18.0,Delivery
+454,2025-05-19 20:48:22,7,Steak,4,18.99,75.96,Debit Card,104,False,16.0,Delivery
+976,2025-05-19 21:05:30,3,Fries,2,3.99,7.98,Mobile Payment,110,False,,Takeout
+590,2025-05-19 21:12:15,3,Fries,3,3.99,11.97,Cash,103,True,19.0,Delivery
+643,2025-05-19 21:30:29,5,Iced Tea,3,2.99,8.97,Credit Card,105,False,,Delivery
+178,2025-05-19 21:35:51,4,Coke,2,2.49,4.98,Mobile Payment,102,False,,Dine-In
+511,2025-05-19 21:43:53,6,Grilled Chicken Salad,2,11.49,22.98,Cash,104,True,,Delivery
+961,2025-05-19 23:23:41,2,Veggie Burger,2,9.49,18.98,Credit Card,109,True,,Takeout
+857,2025-05-19 23:27:27,6,Grilled Chicken Salad,3,11.49,34.47,Cash,110,True,3.0,Delivery
+679,2025-05-19 23:50:19,1,Cheeseburger,2,10.99,21.98,Mobile Payment,103,False,,Takeout
+755,2025-05-19 23:51:31,2,Veggie Burger,2,9.49,18.98,Cash,109,False,,Takeout
+718,2025-05-20 00:02:28,9,Lemonade,2,2.79,5.58,Cash,106,False,4.0,Dine-In
+646,2025-05-20 00:48:49,10,Chocolate Cake,3,6.49,19.47,Credit Card,110,True,,Delivery
+329,2025-05-20 01:20:28,8,Pasta Alfredo,4,13.99,55.96,Cash,109,True,,Delivery
+863,2025-05-20 01:47:36,4,Coke,1,2.49,2.49,Credit Card,104,True,,Delivery
+188,2025-05-20 03:05:25,4,Coke,1,2.49,2.49,Mobile Payment,109,False,,Delivery
+556,2025-05-20 04:22:30,1,Cheeseburger,2,10.99,21.98,Credit Card,103,False,,Takeout
+471,2025-05-20 04:35:44,8,Pasta Alfredo,3,13.99,41.97,Credit Card,104,False,12.0,Takeout
+879,2025-05-20 05:16:44,2,Veggie Burger,2,9.49,18.98,Debit Card,110,False,,Takeout
+540,2025-05-20 08:12:11,7,Steak,1,18.99,18.99,Debit Card,102,True,,Dine-In
+787,2025-05-20 08:24:35,8,Pasta Alfredo,1,13.99,13.99,Mobile Payment,107,True,,Dine-In
+830,2025-05-20 08:35:53,9,Lemonade,2,2.79,5.58,Debit Card,101,False,14.0,Dine-In
+33,2025-05-20 09:47:38,3,Fries,2,3.99,7.98,Cash,103,False,7.0,Dine-In
+137,2025-05-20 09:52:22,6,Grilled Chicken Salad,1,11.49,11.49,Debit Card,104,True,,Delivery
+210,2025-05-20 09:58:17,2,Veggie Burger,3,9.49,28.47,Debit Card,106,False,,Delivery
+233,2025-05-20 11:05:18,10,Chocolate Cake,2,6.49,12.98,Cash,107,False,,Delivery
+785,2025-05-20 11:11:39,7,Steak,1,18.99,18.99,Mobile Payment,104,False,7.0,Takeout
+758,2025-05-20 12:31:08,8,Pasta Alfredo,3,13.99,41.97,Credit Card,104,True,2.0,Dine-In
+342,2025-05-20 12:53:03,3,Fries,1,3.99,3.99,Cash,107,True,,Dine-In
+374,2025-05-20 13:13:27,8,Pasta Alfredo,3,13.99,41.97,Mobile Payment,107,False,,Dine-In
+59,2025-05-20 13:45:45,1,Cheeseburger,2,10.99,21.98,Mobile Payment,101,False,13.0,Delivery
+527,2025-05-20 14:38:51,4,Coke,4,2.49,9.96,Credit Card,110,True,,Dine-In
+175,2025-05-20 15:13:42,7,Steak,4,18.99,75.96,Credit Card,107,False,,Delivery
+545,2025-05-20 15:17:21,7,Steak,4,18.99,75.96,Debit Card,109,False,10.0,Takeout
+927,2025-05-20 15:17:26,9,Lemonade,3,2.79,8.37,Cash,101,True,17.0,Delivery
+291,2025-05-20 18:15:26,8,Pasta Alfredo,4,13.99,55.96,Credit Card,108,False,4.0,Delivery
+681,2025-05-20 18:22:26,9,Lemonade,4,2.79,11.16,Mobile Payment,104,False,,Delivery
+148,2025-05-20 18:31:44,2,Veggie Burger,2,9.49,18.98,Debit Card,101,False,9.0,Delivery
+375,2025-05-20 18:59:09,5,Iced Tea,1,2.99,2.99,Credit Card,107,True,13.0,Takeout
+642,2025-05-20 20:20:53,2,Veggie Burger,2,9.49,18.98,Mobile Payment,110,True,,Delivery
+450,2025-05-20 20:33:49,2,Veggie Burger,1,9.49,9.49,Debit Card,103,True,,Delivery
+77,2025-05-20 21:29:39,7,Steak,3,18.99,56.97,Cash,105,False,20.0,Dine-In
+498,2025-05-20 22:24:32,3,Fries,3,3.99,11.97,Debit Card,107,True,15.0,Dine-In
+525,2025-05-20 22:44:15,1,Cheeseburger,3,10.99,32.97,Mobile Payment,109,False,,Delivery
+370,2025-05-21 03:45:40,6,Grilled Chicken Salad,1,11.49,11.49,Debit Card,108,True,,Dine-In
+437,2025-05-21 04:16:17,10,Chocolate Cake,4,6.49,25.96,Credit Card,106,True,12.0,Delivery
+831,2025-05-21 05:28:50,8,Pasta Alfredo,3,13.99,41.97,Credit Card,105,True,,Delivery
+106,2025-05-21 05:31:52,8,Pasta Alfredo,1,13.99,13.99,Credit Card,101,False,15.0,Delivery
+778,2025-05-21 06:53:09,8,Pasta Alfredo,4,13.99,55.96,Cash,101,False,,Dine-In
+675,2025-05-21 07:30:35,10,Chocolate Cake,3,6.49,19.47,Credit Card,101,True,,Dine-In
+917,2025-05-21 08:06:51,6,Grilled Chicken Salad,4,11.49,45.96,Cash,104,False,17.0,Delivery
+773,2025-05-21 08:16:15,2,Veggie Burger,4,9.49,37.96,Mobile Payment,109,True,,Takeout
+245,2025-05-21 09:23:43,7,Steak,4,18.99,75.96,Mobile Payment,109,True,,Delivery
+591,2025-05-21 09:25:52,8,Pasta Alfredo,1,13.99,13.99,Credit Card,104,True,17.0,Takeout
+665,2025-05-21 10:15:51,10,Chocolate Cake,4,6.49,25.96,Debit Card,103,False,,Delivery
+387,2025-05-21 10:45:00,1,Cheeseburger,3,10.99,32.97,Credit Card,102,False,,Dine-In
+44,2025-05-21 12:09:23,7,Steak,2,18.99,37.98,Debit Card,106,True,,Delivery
+751,2025-05-21 12:45:14,5,Iced Tea,2,2.99,5.98,Mobile Payment,108,False,,Dine-In
+808,2025-05-21 13:00:17,6,Grilled Chicken Salad,3,11.49,34.47,Mobile Payment,105,True,,Dine-In
+593,2025-05-21 13:40:30,5,Iced Tea,1,2.99,2.99,Mobile Payment,104,False,,Delivery
+804,2025-05-21 13:41:08,10,Chocolate Cake,2,6.49,12.98,Cash,105,False,,Dine-In
+661,2025-05-21 14:21:00,9,Lemonade,2,2.79,5.58,Credit Card,102,True,6.0,Takeout
+817,2025-05-21 14:23:18,3,Fries,4,3.99,15.96,Debit Card,102,False,9.0,Takeout
+840,2025-05-21 14:26:56,5,Iced Tea,3,2.99,8.97,Cash,105,False,6.0,Takeout
+558,2025-05-21 14:40:31,9,Lemonade,2,2.79,5.58,Cash,109,False,,Dine-In
+484,2025-05-21 16:26:42,5,Iced Tea,2,2.99,5.98,Mobile Payment,103,False,,Dine-In
+567,2025-05-21 18:07:05,1,Cheeseburger,3,10.99,32.97,Mobile Payment,107,False,13.0,Dine-In
+686,2025-05-21 18:23:22,6,Grilled Chicken Salad,1,11.49,11.49,Cash,110,False,,Dine-In
+503,2025-05-21 18:40:38,4,Coke,1,2.49,2.49,Cash,109,True,,Delivery
+383,2025-05-21 21:02:10,10,Chocolate Cake,3,6.49,19.47,Mobile Payment,106,True,19.0,Takeout
+55,2025-05-21 21:05:23,10,Chocolate Cake,1,6.49,6.49,Debit Card,109,True,,Delivery
+434,2025-05-21 22:28:36,4,Coke,4,2.49,9.96,Debit Card,107,False,,Takeout
+814,2025-05-21 22:58:14,8,Pasta Alfredo,3,13.99,41.97,Cash,109,True,,Dine-In
+630,2025-05-21 23:14:48,8,Pasta Alfredo,3,13.99,41.97,Cash,108,False,2.0,Delivery
+760,2025-05-21 23:18:32,2,Veggie Burger,2,9.49,18.98,Cash,108,True,12.0,Delivery
+702,2025-05-22 00:27:15,10,Chocolate Cake,3,6.49,19.47,Credit Card,109,False,,Delivery
+359,2025-05-22 00:33:34,7,Steak,1,18.99,18.99,Cash,108,False,7.0,Dine-In
+39,2025-05-22 00:59:13,5,Iced Tea,2,2.99,5.98,Cash,106,False,15.0,Dine-In
+890,2025-05-22 02:29:26,3,Fries,4,3.99,15.96,Credit Card,101,True,,Takeout
+533,2025-05-22 02:32:16,6,Grilled Chicken Salad,4,11.49,45.96,Credit Card,104,True,6.0,Delivery
+624,2025-05-22 02:57:10,1,Cheeseburger,2,10.99,21.98,Mobile Payment,104,True,,Takeout
+657,2025-05-22 04:27:07,6,Grilled Chicken Salad,1,11.49,11.49,Cash,106,True,8.0,Dine-In
+688,2025-05-22 05:51:47,9,Lemonade,4,2.79,11.16,Credit Card,110,True,1.0,Dine-In
+93,2025-05-22 06:25:28,1,Cheeseburger,3,10.99,32.97,Cash,102,False,17.0,Takeout
+455,2025-05-22 06:41:59,4,Coke,2,2.49,4.98,Cash,102,True,5.0,Takeout
+174,2025-05-22 07:02:37,9,Lemonade,1,2.79,2.79,Mobile Payment,106,True,19.0,Dine-In
+141,2025-05-22 07:22:51,6,Grilled Chicken Salad,4,11.49,45.96,Debit Card,105,True,,Takeout
+775,2025-05-22 07:54:18,2,Veggie Burger,2,9.49,18.98,Debit Card,105,False,2.0,Dine-In
+197,2025-05-22 09:04:34,7,Steak,3,18.99,56.97,Debit Card,102,False,,Delivery
+43,2025-05-22 09:26:26,6,Grilled Chicken Salad,2,11.49,22.98,Mobile Payment,106,False,,Takeout
+868,2025-05-22 09:46:26,2,Veggie Burger,2,9.49,18.98,Debit Card,108,True,19.0,Takeout
+753,2025-05-22 10:29:32,2,Veggie Burger,2,9.49,18.98,Credit Card,108,True,,Takeout
+993,2025-05-22 10:31:00,10,Chocolate Cake,3,6.49,19.47,Debit Card,108,False,,Takeout
+922,2025-05-22 12:08:30,6,Grilled Chicken Salad,4,11.49,45.96,Credit Card,103,False,5.0,Dine-In
+779,2025-05-22 12:43:01,9,Lemonade,3,2.79,8.37,Mobile Payment,109,False,,Dine-In
+998,2025-05-22 12:44:55,10,Chocolate Cake,4,6.49,25.96,Debit Card,104,False,,Dine-In
+887,2025-05-22 12:55:25,7,Steak,1,18.99,18.99,Credit Card,106,True,,Delivery
+806,2025-05-22 13:40:07,10,Chocolate Cake,2,6.49,12.98,Cash,105,False,13.0,Delivery
+690,2025-05-22 13:41:15,6,Grilled Chicken Salad,2,11.49,22.98,Debit Card,101,True,,Delivery
+723,2025-05-22 14:38:21,7,Steak,1,18.99,18.99,Mobile Payment,102,False,20.0,Delivery
+759,2025-05-22 15:27:50,4,Coke,4,2.49,9.96,Cash,103,True,,Delivery
+432,2025-05-22 15:54:55,3,Fries,4,3.99,15.96,Credit Card,109,True,3.0,Delivery
+902,2025-05-22 15:55:47,7,Steak,1,18.99,18.99,Credit Card,101,True,5.0,Delivery
+825,2025-05-22 15:57:23,8,Pasta Alfredo,3,13.99,41.97,Debit Card,101,False,,Takeout
+228,2025-05-22 15:58:19,6,Grilled Chicken Salad,2,11.49,22.98,Mobile Payment,105,False,,Takeout
+799,2025-05-22 16:07:26,9,Lemonade,4,2.79,11.16,Cash,108,False,,Dine-In
+389,2025-05-22 16:17:01,7,Steak,4,18.99,75.96,Credit Card,109,False,,Dine-In
+499,2025-05-22 16:32:10,8,Pasta Alfredo,1,13.99,13.99,Debit Card,101,True,5.0,Dine-In
+970,2025-05-22 17:19:02,1,Cheeseburger,4,10.99,43.96,Cash,102,True,,Takeout
+240,2025-05-22 17:21:07,7,Steak,2,18.99,37.98,Debit Card,110,False,,Takeout
+248,2025-05-22 18:22:26,6,Grilled Chicken Salad,2,11.49,22.98,Credit Card,103,True,,Dine-In
+201,2025-05-22 18:52:21,9,Lemonade,2,2.79,5.58,Debit Card,107,False,1.0,Dine-In
+7,2025-05-22 19:49:30,8,Pasta Alfredo,4,13.99,55.96,Credit Card,104,False,,Delivery
+131,2025-05-22 20:03:26,8,Pasta Alfredo,4,13.99,55.96,Credit Card,109,False,13.0,Delivery
+236,2025-05-22 20:18:43,9,Lemonade,1,2.79,2.79,Cash,106,True,,Takeout
+606,2025-05-22 20:19:24,7,Steak,3,18.99,56.97,Cash,106,False,,Takeout
+980,2025-05-22 20:20:08,9,Lemonade,1,2.79,2.79,Cash,105,False,11.0,Dine-In
+36,2025-05-22 21:15:24,5,Iced Tea,4,2.99,11.96,Cash,109,False,,Takeout
+268,2025-05-22 21:15:54,2,Veggie Burger,4,9.49,37.96,Cash,105,False,,Takeout
+309,2025-05-22 23:05:50,9,Lemonade,1,2.79,2.79,Debit Card,102,False,17.0,Delivery
+185,2025-05-23 00:41:29,5,Iced Tea,1,2.99,2.99,Debit Card,110,True,19.0,Delivery
+909,2025-05-23 00:45:03,2,Veggie Burger,2,9.49,18.98,Mobile Payment,106,True,10.0,Dine-In
+460,2025-05-23 02:10:34,3,Fries,4,3.99,15.96,Credit Card,106,True,12.0,Dine-In
+959,2025-05-23 02:26:04,3,Fries,2,3.99,7.98,Mobile Payment,105,True,,Dine-In
+809,2025-05-23 02:38:19,2,Veggie Burger,2,9.49,18.98,Cash,107,True,7.0,Delivery
+462,2025-05-23 03:35:53,5,Iced Tea,4,2.99,11.96,Debit Card,104,True,,Delivery
+911,2025-05-23 04:17:01,6,Grilled Chicken Salad,2,11.49,22.98,Credit Card,109,False,,Takeout
+217,2025-05-23 06:09:16,8,Pasta Alfredo,4,13.99,55.96,Credit Card,106,False,,Delivery
+761,2025-05-23 06:49:04,9,Lemonade,1,2.79,2.79,Mobile Payment,103,True,,Dine-In
+934,2025-05-23 07:33:08,4,Coke,1,2.49,2.49,Credit Card,108,False,,Dine-In
+592,2025-05-23 07:37:02,7,Steak,4,18.99,75.96,Credit Card,107,True,,Delivery
+696,2025-05-23 08:20:21,3,Fries,4,3.99,15.96,Debit Card,108,False,5.0,Delivery
+138,2025-05-23 09:00:21,8,Pasta Alfredo,2,13.99,27.98,Debit Card,102,False,,Takeout
+289,2025-05-23 10:20:58,2,Veggie Burger,2,9.49,18.98,Mobile Payment,101,True,,Takeout
+898,2025-05-23 10:26:30,1,Cheeseburger,3,10.99,32.97,Credit Card,109,True,,Takeout
+123,2025-05-23 11:02:34,10,Chocolate Cake,1,6.49,6.49,Debit Card,102,True,,Dine-In
+404,2025-05-23 11:27:40,10,Chocolate Cake,4,6.49,25.96,Debit Card,105,False,,Dine-In
+552,2025-05-23 11:41:48,2,Veggie Burger,1,9.49,9.49,Credit Card,101,True,10.0,Takeout
+360,2025-05-23 12:13:24,7,Steak,2,18.99,37.98,Debit Card,103,True,,Delivery
+110,2025-05-23 13:09:44,2,Veggie Burger,1,9.49,9.49,Credit Card,101,False,,Dine-In
+519,2025-05-23 13:27:05,1,Cheeseburger,3,10.99,32.97,Cash,104,True,,Takeout
+377,2025-05-23 14:10:59,1,Cheeseburger,3,10.99,32.97,Debit Card,105,True,1.0,Delivery
+629,2025-05-23 14:57:51,2,Veggie Burger,2,9.49,18.98,Cash,107,True,,Delivery
+586,2025-05-23 15:09:41,6,Grilled Chicken Salad,2,11.49,22.98,Mobile Payment,110,True,1.0,Dine-In
+635,2025-05-23 15:11:30,10,Chocolate Cake,2,6.49,12.98,Cash,104,True,19.0,Takeout
+896,2025-05-23 16:22:39,1,Cheeseburger,1,10.99,10.99,Credit Card,106,False,,Dine-In
+585,2025-05-23 17:06:47,9,Lemonade,3,2.79,8.37,Mobile Payment,110,False,,Takeout
+334,2025-05-23 18:11:29,2,Veggie Burger,2,9.49,18.98,Debit Card,105,False,,Delivery
+579,2025-05-23 21:57:06,6,Grilled Chicken Salad,3,11.49,34.47,Cash,106,False,,Takeout
+346,2025-05-23 23:33:42,10,Chocolate Cake,4,6.49,25.96,Debit Card,105,True,,Delivery
+86,2025-05-24 00:10:32,10,Chocolate Cake,2,6.49,12.98,Cash,101,True,,Takeout
+960,2025-05-24 00:27:13,2,Veggie Burger,4,9.49,37.96,Cash,110,False,14.0,Takeout
+451,2025-05-24 00:35:15,3,Fries,2,3.99,7.98,Cash,108,True,,Delivery
+739,2025-05-24 00:42:07,2,Veggie Burger,3,9.49,28.47,Cash,101,True,19.0,Dine-In
+281,2025-05-24 02:23:50,5,Iced Tea,2,2.99,5.98,Debit Card,109,True,,Dine-In
+894,2025-05-24 03:28:22,6,Grilled Chicken Salad,3,11.49,34.47,Cash,107,False,17.0,Delivery
+730,2025-05-24 05:06:36,5,Iced Tea,2,2.99,5.98,Debit Card,104,True,18.0,Takeout
+892,2025-05-24 05:46:20,8,Pasta Alfredo,4,13.99,55.96,Cash,105,True,,Delivery
+729,2025-05-24 06:19:13,9,Lemonade,1,2.79,2.79,Credit Card,106,True,,Delivery
+685,2025-05-24 07:13:56,8,Pasta Alfredo,1,13.99,13.99,Mobile Payment,106,True,,Dine-In
+513,2025-05-24 08:00:51,6,Grilled Chicken Salad,3,11.49,34.47,Cash,101,False,14.0,Delivery
+548,2025-05-24 08:01:43,9,Lemonade,3,2.79,8.37,Cash,108,False,3.0,Delivery
+952,2025-05-24 09:17:38,9,Lemonade,3,2.79,8.37,Cash,107,True,16.0,Takeout
+538,2025-05-24 11:49:11,6,Grilled Chicken Salad,2,11.49,22.98,Mobile Payment,101,True,18.0,Dine-In
+536,2025-05-24 14:12:55,7,Steak,4,18.99,75.96,Credit Card,105,False,14.0,Delivery
+397,2025-05-24 17:17:34,10,Chocolate Cake,3,6.49,19.47,Debit Card,104,False,,Dine-In
+639,2025-05-24 17:49:07,7,Steak,2,18.99,37.98,Credit Card,109,False,,Delivery
+476,2025-05-24 17:59:12,5,Iced Tea,1,2.99,2.99,Cash,102,False,8.0,Takeout
+15,2025-05-24 18:23:36,5,Iced Tea,4,2.99,11.96,Debit Card,110,False,,Dine-In
+936,2025-05-24 18:42:27,10,Chocolate Cake,2,6.49,12.98,Cash,108,False,,Delivery
+574,2025-05-24 19:04:58,5,Iced Tea,1,2.99,2.99,Debit Card,110,True,,Takeout
+842,2025-05-24 19:39:44,3,Fries,2,3.99,7.98,Mobile Payment,110,False,,Dine-In
+331,2025-05-24 20:04:08,9,Lemonade,2,2.79,5.58,Debit Card,108,True,6.0,Takeout
+655,2025-05-24 22:09:34,5,Iced Tea,2,2.99,5.98,Mobile Payment,108,False,17.0,Takeout
+256,2025-05-24 22:30:43,10,Chocolate Cake,3,6.49,19.47,Debit Card,108,True,11.0,Delivery
+617,2025-05-24 22:45:30,6,Grilled Chicken Salad,1,11.49,11.49,Debit Card,102,True,,Dine-In
+967,2025-05-24 23:13:33,3,Fries,2,3.99,7.98,Credit Card,108,True,8.0,Takeout
+764,2025-05-25 00:02:16,1,Cheeseburger,3,10.99,32.97,Mobile Payment,110,True,3.0,Dine-In
+3,2025-05-25 00:15:43,4,Coke,2,2.49,4.98,Mobile Payment,102,True,,Takeout
+900,2025-05-25 01:04:17,7,Steak,3,18.99,56.97,Debit Card,104,True,5.0,Dine-In
+946,2025-05-25 01:16:47,8,Pasta Alfredo,3,13.99,41.97,Credit Card,102,False,,Delivery
+108,2025-05-25 02:15:57,10,Chocolate Cake,3,6.49,19.47,Debit Card,101,False,,Delivery
+749,2025-05-25 03:47:45,2,Veggie Burger,2,9.49,18.98,Mobile Payment,109,True,6.0,Takeout
+965,2025-05-25 04:25:42,1,Cheeseburger,2,10.99,21.98,Credit Card,109,True,,Delivery
+456,2025-05-25 05:41:31,9,Lemonade,3,2.79,8.37,Debit Card,104,False,,Takeout
+247,2025-05-25 05:49:30,1,Cheeseburger,1,10.99,10.99,Credit Card,109,True,16.0,Delivery
+229,2025-05-25 06:05:59,3,Fries,2,3.99,7.98,Credit Card,101,True,19.0,Dine-In
+913,2025-05-25 06:13:21,8,Pasta Alfredo,3,13.99,41.97,Cash,107,False,6.0,Dine-In
+677,2025-05-25 06:29:38,1,Cheeseburger,1,10.99,10.99,Debit Card,102,True,8.0,Takeout
+848,2025-05-25 07:06:27,7,Steak,1,18.99,18.99,Mobile Payment,109,False,17.0,Takeout
+317,2025-05-25 07:43:38,2,Veggie Burger,2,9.49,18.98,Debit Card,108,True,,Dine-In
+750,2025-05-25 07:56:46,9,Lemonade,4,2.79,11.16,Credit Card,102,True,,Takeout
+117,2025-05-25 09:55:12,5,Iced Tea,4,2.99,11.96,Mobile Payment,109,True,13.0,Dine-In
+139,2025-05-25 10:02:16,10,Chocolate Cake,2,6.49,12.98,Credit Card,105,True,,Delivery
+819,2025-05-25 10:59:11,10,Chocolate Cake,2,6.49,12.98,Mobile Payment,109,False,12.0,Takeout
+102,2025-05-25 11:10:02,8,Pasta Alfredo,4,13.99,55.96,Credit Card,109,False,8.0,Takeout
+781,2025-05-25 12:22:49,6,Grilled Chicken Salad,1,11.49,11.49,Debit Card,102,False,,Dine-In
+818,2025-05-25 14:44:04,7,Steak,1,18.99,18.99,Credit Card,107,True,,Dine-In
+147,2025-05-25 14:48:45,5,Iced Tea,4,2.99,11.96,Credit Card,109,False,,Delivery
+469,2025-05-25 15:11:37,3,Fries,4,3.99,15.96,Debit Card,103,False,,Takeout
+26,2025-05-25 15:55:26,6,Grilled Chicken Salad,2,11.49,22.98,Mobile Payment,103,False,19.0,Takeout
+479,2025-05-25 17:02:34,2,Veggie Burger,4,9.49,37.96,Credit Card,102,True,16.0,Takeout
+501,2025-05-25 17:16:14,4,Coke,1,2.49,2.49,Cash,103,False,,Dine-In
+126,2025-05-25 17:18:19,7,Steak,2,18.99,37.98,Cash,110,True,,Takeout
+82,2025-05-25 17:33:17,8,Pasta Alfredo,3,13.99,41.97,Debit Card,108,True,15.0,Delivery
+399,2025-05-25 18:11:25,3,Fries,4,3.99,15.96,Cash,109,True,18.0,Takeout
+673,2025-05-25 18:52:19,6,Grilled Chicken Salad,4,11.49,45.96,Mobile Payment,105,False,,Takeout
+512,2025-05-25 19:19:44,3,Fries,2,3.99,7.98,Cash,103,False,,Delivery
+602,2025-05-25 19:58:30,5,Iced Tea,1,2.99,2.99,Cash,105,False,2.0,Dine-In
+587,2025-05-25 20:09:30,1,Cheeseburger,2,10.99,21.98,Debit Card,107,False,,Delivery
+287,2025-05-25 20:11:15,1,Cheeseburger,3,10.99,32.97,Credit Card,103,True,,Takeout
+708,2025-05-25 20:15:39,9,Lemonade,3,2.79,8.37,Cash,101,False,9.0,Delivery
+242,2025-05-25 22:06:06,1,Cheeseburger,2,10.99,21.98,Cash,108,False,,Dine-In
+793,2025-05-25 22:52:53,1,Cheeseburger,2,10.99,21.98,Credit Card,103,False,,Delivery
+838,2025-05-26 00:32:35,9,Lemonade,1,2.79,2.79,Mobile Payment,108,False,,Delivery
+724,2025-05-26 01:19:06,6,Grilled Chicken Salad,3,11.49,34.47,Cash,103,True,,Takeout
+767,2025-05-26 01:27:55,6,Grilled Chicken Salad,2,11.49,22.98,Mobile Payment,107,True,20.0,Takeout
+565,2025-05-26 01:37:51,6,Grilled Chicken Salad,1,11.49,11.49,Credit Card,110,False,,Dine-In
+371,2025-05-26 02:00:29,5,Iced Tea,2,2.99,5.98,Credit Card,105,True,,Delivery
+742,2025-05-26 02:08:53,8,Pasta Alfredo,1,13.99,13.99,Cash,101,True,2.0,Dine-In
+949,2025-05-26 02:25:53,6,Grilled Chicken Salad,3,11.49,34.47,Mobile Payment,101,True,,Takeout
+878,2025-05-26 02:44:52,1,Cheeseburger,2,10.99,21.98,Credit Card,109,False,,Dine-In
+776,2025-05-26 03:47:15,4,Coke,4,2.49,9.96,Credit Card,102,False,,Delivery
+194,2025-05-26 03:53:12,10,Chocolate Cake,3,6.49,19.47,Debit Card,107,True,,Takeout
+932,2025-05-26 04:12:34,6,Grilled Chicken Salad,4,11.49,45.96,Credit Card,101,True,,Dine-In
+37,2025-05-26 04:17:35,10,Chocolate Cake,4,6.49,25.96,Debit Card,105,True,12.0,Delivery
+53,2025-05-26 04:56:50,6,Grilled Chicken Salad,2,11.49,22.98,Credit Card,105,True,,Dine-In
+98,2025-05-26 05:35:34,9,Lemonade,1,2.79,2.79,Mobile Payment,107,False,,Delivery
+211,2025-05-26 06:39:33,5,Iced Tea,4,2.99,11.96,Credit Card,108,True,,Dine-In
+795,2025-05-26 06:47:26,7,Steak,4,18.99,75.96,Cash,101,True,3.0,Dine-In
+237,2025-05-26 07:59:36,3,Fries,3,3.99,11.97,Cash,102,True,,Dine-In
+971,2025-05-26 09:57:49,4,Coke,3,2.49,7.47,Debit Card,104,True,,Dine-In
+507,2025-05-26 10:51:28,6,Grilled Chicken Salad,2,11.49,22.98,Debit Card,108,False,,Takeout
+788,2025-05-26 11:26:19,7,Steak,1,18.99,18.99,Credit Card,101,True,,Delivery
+161,2025-05-26 15:46:33,9,Lemonade,1,2.79,2.79,Mobile Payment,108,True,,Dine-In
+461,2025-05-26 15:50:36,9,Lemonade,3,2.79,8.37,Cash,107,True,,Dine-In
+509,2025-05-26 15:55:14,3,Fries,1,3.99,3.99,Mobile Payment,102,False,5.0,Dine-In
+184,2025-05-26 16:39:39,9,Lemonade,1,2.79,2.79,Mobile Payment,105,False,,Dine-In
+304,2025-05-26 18:09:24,5,Iced Tea,3,2.99,8.97,Mobile Payment,110,True,,Dine-In
+903,2025-05-26 18:14:58,8,Pasta Alfredo,4,13.99,55.96,Debit Card,109,True,6.0,Dine-In
+319,2025-05-26 19:32:50,8,Pasta Alfredo,1,13.99,13.99,Mobile Payment,103,False,,Dine-In
+158,2025-05-26 21:08:02,2,Veggie Burger,2,9.49,18.98,Debit Card,106,False,4.0,Takeout
+851,2025-05-26 22:39:02,9,Lemonade,4,2.79,11.16,Cash,108,False,,Dine-In
+441,2025-05-26 22:48:16,10,Chocolate Cake,3,6.49,19.47,Debit Card,105,False,,Takeout
+905,2025-05-26 22:59:38,10,Chocolate Cake,3,6.49,19.47,Mobile Payment,102,False,,Dine-In
+904,2025-05-27 00:38:29,5,Iced Tea,3,2.99,8.97,Cash,109,False,,Takeout
+433,2025-05-27 02:27:01,3,Fries,2,3.99,7.98,Credit Card,109,True,19.0,Dine-In
+923,2025-05-27 02:56:58,9,Lemonade,1,2.79,2.79,Mobile Payment,104,True,9.0,Takeout
+815,2025-05-27 03:15:28,2,Veggie Burger,2,9.49,18.98,Debit Card,102,True,,Delivery
+935,2025-05-27 04:41:26,9,Lemonade,4,2.79,11.16,Credit Card,103,False,,Dine-In
+697,2025-05-27 04:54:55,7,Steak,1,18.99,18.99,Debit Card,104,False,,Delivery
+640,2025-05-27 05:03:56,3,Fries,1,3.99,3.99,Cash,102,True,,Dine-In
+912,2025-05-27 05:28:00,1,Cheeseburger,4,10.99,43.96,Debit Card,101,True,,Takeout
+350,2025-05-27 05:28:01,7,Steak,1,18.99,18.99,Debit Card,103,False,,Delivery
+305,2025-05-27 05:40:55,2,Veggie Burger,2,9.49,18.98,Cash,110,False,20.0,Dine-In
+367,2025-05-27 07:08:02,10,Chocolate Cake,2,6.49,12.98,Debit Card,105,True,,Dine-In
+34,2025-05-27 08:51:42,1,Cheeseburger,4,10.99,43.96,Cash,108,False,1.0,Takeout
+165,2025-05-27 09:09:03,1,Cheeseburger,3,10.99,32.97,Debit Card,107,False,9.0,Delivery
+124,2025-05-27 09:20:20,6,Grilled Chicken Salad,2,11.49,22.98,Mobile Payment,107,False,17.0,Takeout
+472,2025-05-27 09:55:39,2,Veggie Burger,2,9.49,18.98,Cash,107,True,,Takeout
+914,2025-05-27 10:33:40,3,Fries,3,3.99,11.97,Mobile Payment,106,False,,Takeout
+382,2025-05-27 10:39:19,8,Pasta Alfredo,3,13.99,41.97,Mobile Payment,105,False,7.0,Takeout
+62,2025-05-27 11:10:04,4,Coke,2,2.49,4.98,Credit Card,106,False,,Takeout
+170,2025-05-27 11:18:35,5,Iced Tea,1,2.99,2.99,Credit Card,110,True,4.0,Delivery
+623,2025-05-27 11:19:38,5,Iced Tea,3,2.99,8.97,Credit Card,103,True,,Dine-In
+908,2025-05-27 11:25:16,10,Chocolate Cake,3,6.49,19.47,Cash,102,False,,Delivery
+978,2025-05-27 11:38:40,10,Chocolate Cake,4,6.49,25.96,Debit Card,107,True,,Delivery
+17,2025-05-27 12:05:24,6,Grilled Chicken Salad,3,11.49,34.47,Debit Card,103,False,,Delivery
+748,2025-05-27 12:33:55,10,Chocolate Cake,2,6.49,12.98,Mobile Payment,109,True,,Dine-In
+537,2025-05-27 13:17:08,4,Coke,1,2.49,2.49,Credit Card,102,False,,Delivery
+262,2025-05-27 13:45:12,3,Fries,2,3.99,7.98,Cash,106,True,8.0,Dine-In
+419,2025-05-27 13:52:31,5,Iced Tea,4,2.99,11.96,Cash,104,True,,Delivery
+369,2025-05-27 15:24:28,10,Chocolate Cake,1,6.49,6.49,Credit Card,108,False,8.0,Delivery
+449,2025-05-27 16:08:40,7,Steak,3,18.99,56.97,Cash,109,True,3.0,Delivery
+25,2025-05-27 16:21:18,4,Coke,3,2.49,7.47,Debit Card,109,False,,Takeout
+641,2025-05-27 16:23:04,9,Lemonade,3,2.79,8.37,Mobile Payment,108,True,18.0,Dine-In
+881,2025-05-27 18:37:04,2,Veggie Burger,2,9.49,18.98,Credit Card,105,False,1.0,Dine-In
+459,2025-05-27 21:08:31,1,Cheeseburger,1,10.99,10.99,Debit Card,106,False,,Dine-In
+48,2025-05-27 21:20:32,9,Lemonade,4,2.79,11.16,Credit Card,101,False,,Dine-In
+388,2025-05-27 21:53:36,7,Steak,3,18.99,56.97,Mobile Payment,105,False,15.0,Takeout
+316,2025-05-27 22:09:16,1,Cheeseburger,4,10.99,43.96,Cash,101,True,20.0,Takeout
+991,2025-05-27 22:56:36,8,Pasta Alfredo,3,13.99,41.97,Credit Card,109,True,,Dine-In
+940,2025-05-27 23:44:47,1,Cheeseburger,1,10.99,10.99,Credit Card,108,True,7.0,Dine-In

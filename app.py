@@ -13,40 +13,37 @@ client = OpenAI(api_key=api_key)
 
 # === Streamlit UI Setup ===
 st.set_page_config(page_title="CSV Analyst Bot", layout="wide")
-st.title("📊 Data Analyst Bot with Python Execution")
+st.title("Data Analyst Bot")
 
 # === SIDEBAR ===
-st.sidebar.header("Upload & Settings")
+st.sidebar.header("CSV Upload")
 uploaded_file = st.sidebar.file_uploader("Upload a CSV file", type="csv")
 
 if uploaded_file:
     df = pd.read_csv(uploaded_file)
-    st.subheader("📋 Data Preview")
+    st.subheader("Data Preview")
     st.dataframe(df.head())
 
     st.markdown("---")
 
     # === NATURAL LANGUAGE Q&A WITH CODE EXECUTION ===
-    st.markdown("---")
-    st.subheader("💬 Ask a Question About Your Data")
+    st.subheader("Ask a Question About Your Data")
 
     user_question = st.text_input("Type your question and press Enter:")
 
     if user_question:
         # Prompt instructing the model to return pandas code only
         prompt = f"""
-You are a professional data analyst using pandas in Python.
+            You are a professional data analyst using pandas in Python.
 
-Given this DataFrame:
+            Given this DataFrame: {df.head(10).to_string(index=False)}
 
-{df.head(5).to_string(index=False)}
+            Write Python pandas code to answer the question: "{user_question}"
 
-Write Python pandas code to answer the question: "{user_question}"
+            Return only the code (a single line) that produces a DataFrame or Series result.
 
-Return only the code (a single line) that produces a DataFrame or Series result.
-
-Do NOT include any explanations or text.
-"""
+            Do NOT include any explanations or text.
+            """
 
         try:
             response = client.chat.completions.create(
@@ -62,32 +59,37 @@ Do NOT include any explanations or text.
             # Execute the generated code safely in a restricted namespace
             # Provide the df so the code can use it
             local_vars = {"df": df, "pd": pd}
+
+            for col in df.columns:
+                if "date" in col.lower() or "time" in col.lower():
+                    try:
+                        df[col] = pd.to_datetime(df[col], errors='coerce')
+                    except:
+                        pass
+
             exec(f"result = {code}", {}, local_vars)
             result = local_vars["result"]
 
             # Display the result (DataFrame or Series)
             if isinstance(result, pd.DataFrame) or isinstance(result, pd.Series):
-                st.subheader("📊 Result:")
+                st.subheader("Result:")
                 st.dataframe(result)
             else:
                 st.write(result)
 
             # Check if any matplotlib figure was created and display it
-            import matplotlib.pyplot as plt
             if plt.get_fignums():
                 st.pyplot(plt.gcf())
                 plt.close('all')  # Close the figure so it doesn't overlap on next run
 
             # Optionally, ask the model to summarize the result
             summary_prompt = f"""
-You wrote this pandas code:
-{code}
+            You wrote this pandas code: {code}
 
-The result of this code is:
-{result.to_string() if isinstance(result, (pd.DataFrame, pd.Series)) else str(result)}
+            The result of this code is: {result.to_string() if isinstance(result, (pd.DataFrame, pd.Series)) else str(result)}
 
-Please summarize this result in 1-2 sentences for a business user.
-"""
+            Please summarize this result in 1-2 sentences for a business user.
+            """
             summary_response = client.chat.completions.create(
                 model="gpt-3.5-turbo",
                 messages=[{"role": "user", "content": summary_prompt}],
@@ -101,4 +103,4 @@ Please summarize this result in 1-2 sentences for a business user.
             st.error(f"OpenAI or Execution error: {e}")
 
 else:
-    st.info("📁 Please upload a CSV file to get started.")
+    st.info("Please upload a CSV file to get started.")

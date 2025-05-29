@@ -10,7 +10,7 @@ This app uses streamlit ui and OpenAI's API to create an analyst bot that takes 
 
 A core feature of this project is the ability to upload a cleaned CSV in order to read and make inferences on the data given.
 
-![](img\csvupload.png)
+![bruh](img\csvupload.png)
 
 ### Data Preview
 
